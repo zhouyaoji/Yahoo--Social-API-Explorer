@@ -5,7 +5,7 @@
  
 3. Copy the API Key, Shared Secret and App ID into the keys.inc file.
 
-4. Point your browser to apiexplorer/index.php. 
+4. Point your browser to yahoo_social_api_explorer.php. 
 
 5. Click on any of the links to make HTTP GET calls to the Y! Social APIs.
 
