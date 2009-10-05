@@ -1,0 +1,20 @@
+1. Copy these files to a directory on your Web server.
+
+2. Go to https://developer.apps.yahoo.com/dashboard/createKey.html and
+   create an OAuth application.
+ 
+3. Copy the API Key, Shared Secret and App ID into the keys.inc file.
+
+4. Point your browser to apiexplorer/index.php. 
+
+5. Click on any of the links to make HTTP GET calls to the Y! Social APIs.
+
+Note: Calls to the individual resources require IDs, which you can get from the
+      the returned responses. For example, you can click on the Updates API link
+      to get a response containing updates, with each update having an ID. You can 
+      then enter the endpoint /v1/user/update/{ID} to get a single resource. 
+
+      Most of the Social APIs have collection and single resource endpoints. See
+      the Yahoo! Social API Reference for more information at http://developer.yahoo.com/social/rest_api_guide.
+
+
