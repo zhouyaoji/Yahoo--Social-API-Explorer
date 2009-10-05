@@ -1,0 +1,2210 @@
+
+[24-Sep-2009 09:48:30] ERROR - HTTP request failed
+[24-Sep-2009 09:48:30] ERROR OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_version=1.0&oauth_nonce=20990a68a35a4b6249c978f5cc2387cf&oauth_timestamp=1253807309&oauth_consumer_key=dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy&oauth_callback=zhouyaoji.com%2Fapiexplorer%2Findex.php&oauth_signature_method=HMAC-SHA1&oauth_signature=LIAq3umsUUjRdImvECc0h8F44P4%3D
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 15:48:30 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/html; charset=utf-8
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+                        <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+                        <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+                                <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+                                <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+                        </div>
+                        </body>
+                        </html><!-- oauth02.member.sk1.yahoo.com uncompressed/chunked Thu Sep 24 08:48:30 PDT 2009 -->
+
+)
+
+[24-Sep-2009 09:48:30] ERROR - OAuth call to get request token failed
+[24-Sep-2009 09:48:30] ERROR - Failed to create request token
+[24-Sep-2009 09:48:30] ERROR - Failed to create authorization URLs
+[24-Sep-2009 09:48:30] PHP Fatal error:  Call to a member function get() on a non-object in /home1/joecater/public_html/apiexplorer/index.php on line 122
+[24-Sep-2009 09:52:09] ERROR - HTTP request failed
+[24-Sep-2009 09:52:09] ERROR OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_version=1.0&oauth_nonce=6c3b361a37b3722838d1a2a04ea9d266&oauth_timestamp=1253807528&oauth_consumer_key=dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy&oauth_callback=zhouyaoji.com%2Fapiexplorer%2Findex.php&oauth_signature_method=HMAC-SHA1&oauth_signature=2BLPkDxvVxcIUOtrnAf3f2pFxJI%3D
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 15:52:09 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/html; charset=utf-8
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+                        <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+                        <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+                                <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+                                <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+                        </div>
+                        </body>
+                        </html><!-- oauth03.member.sk1.yahoo.com uncompressed/chunked Thu Sep 24 08:52:09 PDT 2009 -->
+
+)
+
+[24-Sep-2009 09:52:09] ERROR - OAuth call to get request token failed
+[24-Sep-2009 09:52:09] ERROR - Failed to create request token
+[24-Sep-2009 09:52:09] ERROR - Failed to create authorization URLs
+[24-Sep-2009 09:52:09] PHP Fatal error:  Call to a member function get() on a non-object in /home1/joecater/public_html/apiexplorer/index.php on line 122
+[24-Sep-2009 09:52:11] ERROR - HTTP request failed
+[24-Sep-2009 09:52:11] ERROR OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_version=1.0&oauth_nonce=b137d62b1b13d96ec94b62ca18400109&oauth_timestamp=1253807531&oauth_consumer_key=dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy&oauth_callback=zhouyaoji.com%2Fapiexplorer%2Findex.php&oauth_signature_method=HMAC-SHA1&oauth_signature=LfmK%2F1sDvJF0sb8S4CHH2ittP4M%3D
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 15:52:11 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/html; charset=utf-8
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+                        <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+                        <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+                                <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+                                <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+                        </div>
+                        </body>
+                        </html><!-- oauth02.member.sk1.yahoo.com uncompressed/chunked Thu Sep 24 08:52:11 PDT 2009 -->
+
+)
+
+[24-Sep-2009 09:52:11] ERROR - OAuth call to get request token failed
+[24-Sep-2009 09:52:11] ERROR - Failed to create request token
+[24-Sep-2009 09:52:11] ERROR - Failed to create authorization URLs
+[24-Sep-2009 09:52:11] PHP Fatal error:  Call to a member function get() on a non-object in /home1/joecater/public_html/apiexplorer/index.php on line 122
+[24-Sep-2009 09:52:24] ERROR - HTTP request failed
+[24-Sep-2009 09:52:24] ERROR OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_version=1.0&oauth_nonce=6c2269ea0df5aa0baac2128fb5186380&oauth_timestamp=1253807543&oauth_consumer_key=dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy&oauth_callback=zhouyaoji.com%2Fapiexplorer%2Findex.php&oauth_signature_method=HMAC-SHA1&oauth_signature=ZqJFgrzauP2WBoFIqEdr3QjuLIA%3D
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 15:52:24 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/html; charset=utf-8
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+                        <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+                        <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+                                <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+                                <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+                        </div>
+                        </body>
+                        </html><!-- oauth02.member.sk1.yahoo.com uncompressed/chunked Thu Sep 24 08:52:24 PDT 2009 -->
+
+)
+
+[24-Sep-2009 09:52:24] ERROR - OAuth call to get request token failed
+[24-Sep-2009 09:52:24] ERROR - Failed to create request token
+[24-Sep-2009 09:52:24] ERROR - Failed to create authorization URLs
+[24-Sep-2009 09:52:24] PHP Fatal error:  Call to a member function get() on a non-object in /home1/joecater/public_html/apiexplorer/index.php on line 122
+[24-Sep-2009 09:52:25] ERROR - HTTP request failed
+[24-Sep-2009 09:52:25] ERROR OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_version=1.0&oauth_nonce=1dd9eda7b5d475e81ced483f4fb1624d&oauth_timestamp=1253807545&oauth_consumer_key=dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy&oauth_callback=zhouyaoji.com%2Fapiexplorer%2Findex.php&oauth_signature_method=HMAC-SHA1&oauth_signature=Y2UTdird%2Bfv%2F1AkttnAV%2BPAYgVk%3D
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 15:52:25 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/html; charset=utf-8
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+                        <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+                        <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+                                <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+                                <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+                        </div>
+                        </body>
+                        </html><!-- oauth01.member.sk1.yahoo.com uncompressed/chunked Thu Sep 24 08:52:25 PDT 2009 -->
+
+)
+
+[24-Sep-2009 09:52:25] ERROR - OAuth call to get request token failed
+[24-Sep-2009 09:52:25] ERROR - Failed to create request token
+[24-Sep-2009 09:52:25] ERROR - Failed to create authorization URLs
+[24-Sep-2009 09:52:25] PHP Fatal error:  Call to a member function get() on a non-object in /home1/joecater/public_html/apiexplorer/index.php on line 122
+[24-Sep-2009 09:52:27] ERROR - HTTP request failed
+[24-Sep-2009 09:52:27] ERROR OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_version=1.0&oauth_nonce=84df6c07e7e8429a091b5344e131d215&oauth_timestamp=1253807547&oauth_consumer_key=dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy&oauth_callback=zhouyaoji.com%2Fapiexplorer%2Findex.php&oauth_signature_method=HMAC-SHA1&oauth_signature=cQIewPFs4h1GJtfo7Dhab%2BmXgOY%3D
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 15:52:27 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/html; charset=utf-8
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+                        <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+                        <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+                                <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+                                <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+                        </div>
+                        </body>
+                        </html><!-- oauth03.member.sk1.yahoo.com uncompressed/chunked Thu Sep 24 08:52:27 PDT 2009 -->
+
+)
+
+[24-Sep-2009 09:52:27] ERROR - OAuth call to get request token failed
+[24-Sep-2009 09:52:27] ERROR - Failed to create request token
+[24-Sep-2009 09:52:27] ERROR - Failed to create authorization URLs
+[24-Sep-2009 09:52:27] PHP Fatal error:  Call to a member function get() on a non-object in /home1/joecater/public_html/apiexplorer/index.php on line 122
+[24-Sep-2009 09:52:41] ERROR - HTTP request failed
+[24-Sep-2009 09:52:41] ERROR OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_version=1.0&oauth_nonce=a75aeea780db9f409efa322c0d591439&oauth_timestamp=1253807561&oauth_consumer_key=dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy&oauth_callback=zhouyaoji.com%2Fapiexplorer%2Findex.php&oauth_signature_method=HMAC-SHA1&oauth_signature=qxhMCtRu13EyadPFo7q7edb5Q98%3D
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 15:52:41 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/html; charset=utf-8
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+                        <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+                        <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+                                <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+                                <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+                        </div>
+                        </body>
+                        </html><!-- oauth02.member.sk1.yahoo.com uncompressed/chunked Thu Sep 24 08:52:41 PDT 2009 -->
+
+)
+
+[24-Sep-2009 09:52:41] ERROR - OAuth call to get request token failed
+[24-Sep-2009 09:52:41] ERROR - Failed to create request token
+[24-Sep-2009 09:52:41] ERROR - Failed to create authorization URLs
+[24-Sep-2009 09:52:41] PHP Fatal error:  Call to a member function get() on a non-object in /home1/joecater/public_html/apiexplorer/index.php on line 122
+[24-Sep-2009 09:53:53] ERROR - HTTP request failed
+[24-Sep-2009 09:53:53] ERROR OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_version=1.0&oauth_nonce=3e36e6b09bce2b70db6f2aa931687800&oauth_timestamp=1253807632&oauth_consumer_key=dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy&oauth_callback=zhouyaoji.com%2Fapiexplorer%2Findex.php&oauth_signature_method=HMAC-SHA1&oauth_signature=cEc9rFZ4qTzq%2Bsv40im%2BOL2K4iM%3D
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 15:53:52 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/html; charset=utf-8
+        )
+
+    [responseBody] => <html><title>OAuth Error</title>
+                        <body style='background-color:#edeff2;padding:0;margin:0;font-family:Tahoma;font-size:62.5%;'>
+                        <div style='margin-top:90px;background-color:white;margin:90px 90px;padding:10px 50px;padding-top:15px;;border:1px solid #aaadb0;-moz-border-radius:.3em;'>
+                                <h1 style='border-bottom:1px solid #aaadb0;'>OAuth Error</h1>
+                                <ul style='font-size:1.5em;'><li>Custom port is not allowed or the host is not registered with this consumer key.</li></ul>
+                        </div>
+                        </body>
+                        </html><!-- oauth03.member.sk1.yahoo.com uncompressed/chunked Thu Sep 24 08:53:52 PDT 2009 -->
+
+)
+
+[24-Sep-2009 09:53:53] ERROR - OAuth call to get request token failed
+[24-Sep-2009 09:53:53] ERROR - Failed to create request token
+[24-Sep-2009 09:53:53] ERROR - Failed to create authorization URLs
+[24-Sep-2009 09:53:53] PHP Fatal error:  Call to a member function get() on a non-object in /home1/joecater/public_html/apiexplorer/index.php on line 123
+[24-Sep-2009 09:55:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joecater/public_html/apiexplorer/index.php:21) in /home1/joecater/public_html/yosdk/lib/Yahoo.inc on line 341
+[24-Sep-2009 09:55:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/joecater/public_html/apiexplorer/index.php:21) in /home1/joecater/public_html/yosdk/lib/Yahoo.inc on line 341
+[24-Sep-2009 10:10:39] ERROR - HTTP request failed
+[24-Sep-2009 10:10:39] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => social.yahooapis.com/v1/me/guid
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="f985bc6c9cfd26350362cb321456f068",oauth_timestamp="1253808639",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DodjF5ovnnSPu4yAoHrb0vIIgFBlkreR5pilJluGue13zFceZhd.q9EMJh8KGO6SLgzZBE9A399Tqjxcm36kAZU0B9yJosD3NPsjUhV.rHu4OzOEvnYVhFSfhaPUdhS13hf2a4oIYgbV1MtS9FHhDKm05sGGjonDqnKxzlieF3n9X7XPb7ImM8lioqtize.8dt1knpjxdGOyI_UJGPPO7Kdoie0szfCLpLWQSVwPvns5F9KUSzQVU3DRcKoWH.9Fx05ZybxVteaGXPekkve8EK8yF1VQTzU5xwZKP.6IG2unZLzr2S_RNGuOQ6v6M.r0kGTF0JSkh5GXGKkSntdddpNMbR8uEksPkVStYGX8qqHkAAyEAqUy_M6uFb_iuNMMJAskc8c99k5pEbFS814qZuqWx_fdSOyDZjcc1jrnoi4KxTCuUL4DhlOLyGJS3djyH37._blgg3GblAUN7QkD0MOwBfwuBFnE3qSbxs40_wzI4FDSBeGkSl2nXWY2SFunA66WTrPoeL8Lt.8gl3qELnYVry2G1SjmEKWP40VRztGfILOIMOixs3dR32jiTxExJ_ufNVFI3oZ.dcjbr7_BzmjnGHGc3r3Wx2Gw5FrwmR.AiYVAEeVsKpDOmzjL1MuN4KZeiSMZQrehjatj2gDkxhdo5gXIBGCY4__yTs1yWGA0UesqsLNR5691vXdNqcbMRNLevG44alqbepQopNI34PK2p760SuiErgaxH4GhaQyg8Q4U_aj5Irbx6.THDtpgR96603pQ3xJHhkSPegEd2qMpuG1Tm1Ce2oA--",oauth_signature_method="HMAC-SHA1",oauth_signature="po37sCQeljFlFA5VUEONpuReKCA%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 16:10:39 GMT
+            [WWW-Authenticate] => OAuth oauth_problem="signature_invalid", realm="yahooapis.com"
+            [Vary] => Accept-Encoding
+            [Content-Type] => application/json
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"lang":"en-US","description":"Please provide valid credentials. OAuth oauth_problem=\"signature_invalid\", realm=\"yahooapis.com\""}}
+)
+
+[24-Sep-2009 10:10:39] ERROR - HTTP request failed
+[24-Sep-2009 10:10:39] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => social.yahooapis.com/v1/me/guid?format=xml
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="05e0798c69796e95e8c01a7deceebe74",oauth_timestamp="1253808639",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DodjF5ovnnSPu4yAoHrb0vIIgFBlkreR5pilJluGue13zFceZhd.q9EMJh8KGO6SLgzZBE9A399Tqjxcm36kAZU0B9yJosD3NPsjUhV.rHu4OzOEvnYVhFSfhaPUdhS13hf2a4oIYgbV1MtS9FHhDKm05sGGjonDqnKxzlieF3n9X7XPb7ImM8lioqtize.8dt1knpjxdGOyI_UJGPPO7Kdoie0szfCLpLWQSVwPvns5F9KUSzQVU3DRcKoWH.9Fx05ZybxVteaGXPekkve8EK8yF1VQTzU5xwZKP.6IG2unZLzr2S_RNGuOQ6v6M.r0kGTF0JSkh5GXGKkSntdddpNMbR8uEksPkVStYGX8qqHkAAyEAqUy_M6uFb_iuNMMJAskc8c99k5pEbFS814qZuqWx_fdSOyDZjcc1jrnoi4KxTCuUL4DhlOLyGJS3djyH37._blgg3GblAUN7QkD0MOwBfwuBFnE3qSbxs40_wzI4FDSBeGkSl2nXWY2SFunA66WTrPoeL8Lt.8gl3qELnYVry2G1SjmEKWP40VRztGfILOIMOixs3dR32jiTxExJ_ufNVFI3oZ.dcjbr7_BzmjnGHGc3r3Wx2Gw5FrwmR.AiYVAEeVsKpDOmzjL1MuN4KZeiSMZQrehjatj2gDkxhdo5gXIBGCY4__yTs1yWGA0UesqsLNR5691vXdNqcbMRNLevG44alqbepQopNI34PK2p760SuiErgaxH4GhaQyg8Q4U_aj5Irbx6.THDtpgR96603pQ3xJHhkSPegEd2qMpuG1Tm1Ce2oA--",oauth_signature_method="HMAC-SHA1",oauth_signature="2KRNlK19aOlwZkipZQBQYHxglJI%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 16:10:39 GMT
+            [WWW-Authenticate] => OAuth oauth_problem="signature_invalid", realm="yahooapis.com"
+            [Content-Type] => application/xml
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version='1.0' encoding='UTF-8'?>
+<yahoo:error xmlns:yahoo='http://yahooapis.com/v1/base.rng'
+  xml:lang='en-US'>
+  <yahoo:description>Please provide valid credentials. OAuth oauth_problem="signature_invalid", realm="yahooapis.com"</yahoo:description>
+</yahoo:error>
+<!-- ws113.socdir.sp2.yahoo.com uncompressed/chunked Thu Sep 24 09:10:39 PDT 2009 -->
+
+)
+
+[24-Sep-2009 10:10:39] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(132): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[24-Sep-2009 10:12:43] PHP Parse error:  syntax error, unexpected ':' in /home1/joecater/public_html/apiexplorer/index.php on line 94
+[24-Sep-2009 10:13:44] ERROR - Error making libcurl request(http://http://social.yahooapis.com/v1/me/guid): Couldn't resolve host 'http:'
+[24-Sep-2009 10:13:44] ERROR - Error making libcurl request(http://http://social.yahooapis.com/v1/me/guid?format=xml): Couldn't resolve host 'http:'
+[24-Sep-2009 10:13:44] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(132): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[24-Sep-2009 10:13:51] ERROR - Error making libcurl request(http://http://social.yahooapis.com/v1/me/guid): Couldn't resolve host 'http:'
+[24-Sep-2009 10:13:51] ERROR - Error making libcurl request(http://http://social.yahooapis.com/v1/me/guid?format=xml): Couldn't resolve host 'http:'
+[24-Sep-2009 10:13:51] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(132): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[24-Sep-2009 10:14:48] ERROR - HTTP request failed
+[24-Sep-2009 10:14:48] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => social.yahooapis.com/v1/me/guid
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="5f61d20b6c33059851c92ecc73cd2243",oauth_timestamp="1253808888",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DodjF5ovnnSPu4yAoHrb0vIIgFBlkreR5pilJluGue13zFceZhd.q9EMJh8KGO6SLgzZBE9A399Tqjxcm36kAZU0B9yJosD3NPsjUhV.rHu4OzOEvnYVhFSfhaPUdhS13hf2a4oIYgbV1MtS9FHhDKm05sGGjonDqnKxzlieF3n9X7XPb7ImM8lioqtize.8dt1knpjxdGOyI_UJGPPO7Kdoie0szfCLpLWQSVwPvns5F9KUSzQVU3DRcKoWH.9Fx05ZybxVteaGXPekkve8EK8yF1VQTzU5xwZKP.6IG2unZLzr2S_RNGuOQ6v6M.r0kGTF0JSkh5GXGKkSntdddpNMbR8uEksPkVStYGX8qqHkAAyEAqUy_M6uFb_iuNMMJAskc8c99k5pEbFS814qZuqWx_fdSOyDZjcc1jrnoi4KxTCuUL4DhlOLyGJS3djyH37._blgg3GblAUN7QkD0MOwBfwuBFnE3qSbxs40_wzI4FDSBeGkSl2nXWY2SFunA66WTrPoeL8Lt.8gl3qELnYVry2G1SjmEKWP40VRztGfILOIMOixs3dR32jiTxExJ_ufNVFI3oZ.dcjbr7_BzmjnGHGc3r3Wx2Gw5FrwmR.AiYVAEeVsKpDOmzjL1MuN4KZeiSMZQrehjatj2gDkxhdo5gXIBGCY4__yTs1yWGA0UesqsLNR5691vXdNqcbMRNLevG44alqbepQopNI34PK2p760SuiErgaxH4GhaQyg8Q4U_aj5Irbx6.THDtpgR96603pQ3xJHhkSPegEd2qMpuG1Tm1Ce2oA--",oauth_signature_method="HMAC-SHA1",oauth_signature="RDtGjiDdEILSgBdeCScfmCo71Yc%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 16:14:48 GMT
+            [WWW-Authenticate] => OAuth oauth_problem="signature_invalid", realm="yahooapis.com"
+            [Vary] => Accept-Encoding
+            [Content-Type] => application/json
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"lang":"en-US","description":"Please provide valid credentials. OAuth oauth_problem=\"signature_invalid\", realm=\"yahooapis.com\""}}
+)
+
+[24-Sep-2009 10:14:48] ERROR - HTTP request failed
+[24-Sep-2009 10:14:48] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => social.yahooapis.com/v1/me/guid?format=xml
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="27f6077ca257284f1f2d2d60f07f07c8",oauth_timestamp="1253808888",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DodjF5ovnnSPu4yAoHrb0vIIgFBlkreR5pilJluGue13zFceZhd.q9EMJh8KGO6SLgzZBE9A399Tqjxcm36kAZU0B9yJosD3NPsjUhV.rHu4OzOEvnYVhFSfhaPUdhS13hf2a4oIYgbV1MtS9FHhDKm05sGGjonDqnKxzlieF3n9X7XPb7ImM8lioqtize.8dt1knpjxdGOyI_UJGPPO7Kdoie0szfCLpLWQSVwPvns5F9KUSzQVU3DRcKoWH.9Fx05ZybxVteaGXPekkve8EK8yF1VQTzU5xwZKP.6IG2unZLzr2S_RNGuOQ6v6M.r0kGTF0JSkh5GXGKkSntdddpNMbR8uEksPkVStYGX8qqHkAAyEAqUy_M6uFb_iuNMMJAskc8c99k5pEbFS814qZuqWx_fdSOyDZjcc1jrnoi4KxTCuUL4DhlOLyGJS3djyH37._blgg3GblAUN7QkD0MOwBfwuBFnE3qSbxs40_wzI4FDSBeGkSl2nXWY2SFunA66WTrPoeL8Lt.8gl3qELnYVry2G1SjmEKWP40VRztGfILOIMOixs3dR32jiTxExJ_ufNVFI3oZ.dcjbr7_BzmjnGHGc3r3Wx2Gw5FrwmR.AiYVAEeVsKpDOmzjL1MuN4KZeiSMZQrehjatj2gDkxhdo5gXIBGCY4__yTs1yWGA0UesqsLNR5691vXdNqcbMRNLevG44alqbepQopNI34PK2p760SuiErgaxH4GhaQyg8Q4U_aj5Irbx6.THDtpgR96603pQ3xJHhkSPegEd2qMpuG1Tm1Ce2oA--",oauth_signature_method="HMAC-SHA1",oauth_signature="NWdMezA24A9Yk75uoAone06RnPM%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 24 Sep 2009 16:14:48 GMT
+            [WWW-Authenticate] => OAuth oauth_problem="signature_invalid", realm="yahooapis.com"
+            [Content-Type] => application/xml
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r2.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version='1.0' encoding='UTF-8'?>
+<yahoo:error xmlns:yahoo='http://yahooapis.com/v1/base.rng'
+  xml:lang='en-US'>
+  <yahoo:description>Please provide valid credentials. OAuth oauth_problem="signature_invalid", realm="yahooapis.com"</yahoo:description>
+</yahoo:error>
+<!-- ws102.socdir.sp2.yahoo.com uncompressed/chunked Thu Sep 24 09:14:48 PDT 2009 -->
+
+)
+
+[24-Sep-2009 10:14:48] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(132): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[24-Sep-2009 10:48:12] PHP Parse error:  syntax error, unexpected '<' in /home1/joecater/public_html/apiexplorer/index.php on line 17
+[30-Sep-2009 10:08:32] ERROR - HTTP request failed
+[30-Sep-2009 10:08:32] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/connections/updates
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="7500e3f4c1b5f885a103f5df46bd0045",oauth_timestamp="1254326912",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DfVl45i2G41r6CxxsAgivHdd7tEsWHybWOR.1H3cbM8sfCcrcZ85SgQIDQ23ca8cqCOSRaeBD_Bv1ubgqfif9Pxz2jZAE62tAV.zTnHx2DVY7TXL.ODYNDLIozNn5Dek0U4Shngm6odxLDNYtA5J.4uGc3w_CG9SAgngrD9YWtkVyMXGokkn49U3_U4U_v5LfjhBfaq609KMnkooZRn6yb3ydicHjEW76pWmQ2AeGxnpHE7J4aKbw1Kc6J80CX6KsoZO5MJpQ1iKq7yeDP8bTJMS0ypmYVUh2NbvHjIvfAI2q3UaK1WZDRHCjUiBOEnLIMQ1IkGELxQwFAG7SFImMtZ1Obo8TlFEELCNN1LSIw.wJi_QGwn5FUGbYfm.mF4cpfash27Sd4lgOpn7a06Z4NCYcgW2uTDQAxhpdQx24hrbSrtSpClpO1ygldGK8sCuSmx0bPW1pCpwdl48exCm3M0QsbI_Xy6DMiMvJY9B.oBRnhyzOgvJ4I8iJkFY0orUVXQu2dWYEnctHhzPpdHo7BXEFBtvPXMjqJj2jPb9WtEwCAcosQmdpsCzRfiqYtqLFwwS_P7sJ13_HgOURlfm0MYw9m_NRlaQN0FIdIQtCWnGpgQuIf7Xzuhsf2a6OO0cpi9ipBtYm7TevoQON3m1ZeANp9h1ABfo8K6IGlCeUjR7jyLl9PAjmLkh_dg4g.HxtCAAJAaB5O.M7vWPdPTMjJGY3XOt_fsV9WLjEPaZH6UAuc67N.Ud9HLnPv.82QCsjawJxH5jZ95y5mAP9O4WXZ7N7hjf00ofxBg--",oauth_signature_method="HMAC-SHA1",oauth_signature="QurrPhuLKVZNTflZ7dW61xl%2Fp6A%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Wed, 30 Sep 2009 16:08:32 GMT
+            [Content-Type] => application/xml
+            [Content-Language] => en
+            [Content-Length] => 223
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r2.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version='1.0' encoding='utf-8'?>
+<error xmlns='http://yahooapis.com/v1/base.rng' 
+       xml:lang='en'>
+    <description>404 Not Found</description>
+    <detail>URI has no match in the dispatch map
+</detail>
+</error>
+
+)
+
+[30-Sep-2009 10:08:32] ERROR - HTTP request failed
+[30-Sep-2009 10:08:32] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/connections/updates?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="d18f957cb9e8562e6428620ee70238dc",oauth_timestamp="1254326912",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DfVl45i2G41r6CxxsAgivHdd7tEsWHybWOR.1H3cbM8sfCcrcZ85SgQIDQ23ca8cqCOSRaeBD_Bv1ubgqfif9Pxz2jZAE62tAV.zTnHx2DVY7TXL.ODYNDLIozNn5Dek0U4Shngm6odxLDNYtA5J.4uGc3w_CG9SAgngrD9YWtkVyMXGokkn49U3_U4U_v5LfjhBfaq609KMnkooZRn6yb3ydicHjEW76pWmQ2AeGxnpHE7J4aKbw1Kc6J80CX6KsoZO5MJpQ1iKq7yeDP8bTJMS0ypmYVUh2NbvHjIvfAI2q3UaK1WZDRHCjUiBOEnLIMQ1IkGELxQwFAG7SFImMtZ1Obo8TlFEELCNN1LSIw.wJi_QGwn5FUGbYfm.mF4cpfash27Sd4lgOpn7a06Z4NCYcgW2uTDQAxhpdQx24hrbSrtSpClpO1ygldGK8sCuSmx0bPW1pCpwdl48exCm3M0QsbI_Xy6DMiMvJY9B.oBRnhyzOgvJ4I8iJkFY0orUVXQu2dWYEnctHhzPpdHo7BXEFBtvPXMjqJj2jPb9WtEwCAcosQmdpsCzRfiqYtqLFwwS_P7sJ13_HgOURlfm0MYw9m_NRlaQN0FIdIQtCWnGpgQuIf7Xzuhsf2a6OO0cpi9ipBtYm7TevoQON3m1ZeANp9h1ABfo8K6IGlCeUjR7jyLl9PAjmLkh_dg4g.HxtCAAJAaB5O.M7vWPdPTMjJGY3XOt_fsV9WLjEPaZH6UAuc67N.Ud9HLnPv.82QCsjawJxH5jZ95y5mAP9O4WXZ7N7hjf00ofxBg--",oauth_signature_method="HMAC-SHA1",oauth_signature="7fqlz1gCDrBYGtq18lzWHQobpRk%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Wed, 30 Sep 2009 16:08:32 GMT
+            [Content-Type] => application/xml
+            [Content-Language] => en
+            [Content-Length] => 223
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r3.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version='1.0' encoding='utf-8'?>
+<error xmlns='http://yahooapis.com/v1/base.rng' 
+       xml:lang='en'>
+    <description>404 Not Found</description>
+    <detail>URI has no match in the dispatch map
+</detail>
+</error>
+
+)
+
+[30-Sep-2009 10:08:32] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(141): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[30-Sep-2009 10:13:50] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 71 bytes) in /home1/joecater/public_html/apiexplorer/prettify.inc on line 82
+[30-Sep-2009 10:14:25] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 71 bytes) in /home1/joecater/public_html/apiexplorer/prettify.inc on line 82
+[30-Sep-2009 12:22:46] ERROR - HTTP request failed
+[30-Sep-2009 12:22:46] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/contact/407/address/1
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="82faf1921a1fc37b53561df9af64b0f9",oauth_timestamp="1254334966",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DO10KDbDGhS8UxMZpMvkBs.kjyhM3J2StgpKE8NhiPh2jwRw9vAIxMP9PimYyDEeNl1YkRknfQIDmtvJkSpnqdwmfNu7Qlf.1RcRpCFidI16VeWZp7TGVt809HyuAkKwvXSn8jAAUmJLv76n0JID9iAHDb91nLqqyzHQq.RVJWWRmsvubEnwv5m4DDaagmqOKUUoVd1Ul4O8CK60OVxoxrJ977t21.7knSwjkdWJI7EuZS7BJI5ZO6LxR2.XR06p4eYHMvmePXFsBCl7rxTz4WZg3H4xCQLibONPmtAOtZ9CrnJSkd6dDAQsV9LlFXk1yyv_urMm_jQoYxj_o1OObbuLcgPa.iIegHKIxVS8SnQhMKuN5b8Mj.n0mGjUpGmDztW5J.zeymWjOsgoTV0IzFOynaEuyxVd_0kxRhU4aTd.TJN7qtutV2HM1SQw_AScYXyh2ux0a2hFqrFIVDeRvdO7hAcjYnliNPHu3RDZuqu2RJS8ZQEpxmYP8bOLQWOZqh3xExmMtG5ElOyWPrnBNDSiIwrFXMOAI6c9gNh_8QA0KGRqUtINx7lnRykDyRQ11p4k5swsT53JYOSc.benXE8T.noHanuWvis6s0zHCROkFSeqgsh6_wIMORJR6UIEjJ3pn4J26yy02CidtTSIyzyJ5hCQMC4V76aYPuJfB2xWOYwATTd4L6w7jmIjB1hAMLddSZy.detUO4oL8JA8YDk6B_qMz8g8lTbpDgQqnVlupDRrGezBdY_0XOReXFQk.cjv_LswsYyaafr6WPYognKLOGxnRDXnRcQ--",oauth_signature_method="HMAC-SHA1",oauth_signature="I6ue7N2JdR%2Fp7AhCeokNGt0CFyA%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Wed, 30 Sep 2009 18:22:46 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws123.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r2.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"field: address field id: 1 for contact id: 407 not found"}}
+)
+
+[30-Sep-2009 12:22:46] ERROR - HTTP request failed
+[30-Sep-2009 12:22:46] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/contact/407/address/1?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="83b9066ee20d386c3fbb6ff7a1d5023e",oauth_timestamp="1254334966",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DO10KDbDGhS8UxMZpMvkBs.kjyhM3J2StgpKE8NhiPh2jwRw9vAIxMP9PimYyDEeNl1YkRknfQIDmtvJkSpnqdwmfNu7Qlf.1RcRpCFidI16VeWZp7TGVt809HyuAkKwvXSn8jAAUmJLv76n0JID9iAHDb91nLqqyzHQq.RVJWWRmsvubEnwv5m4DDaagmqOKUUoVd1Ul4O8CK60OVxoxrJ977t21.7knSwjkdWJI7EuZS7BJI5ZO6LxR2.XR06p4eYHMvmePXFsBCl7rxTz4WZg3H4xCQLibONPmtAOtZ9CrnJSkd6dDAQsV9LlFXk1yyv_urMm_jQoYxj_o1OObbuLcgPa.iIegHKIxVS8SnQhMKuN5b8Mj.n0mGjUpGmDztW5J.zeymWjOsgoTV0IzFOynaEuyxVd_0kxRhU4aTd.TJN7qtutV2HM1SQw_AScYXyh2ux0a2hFqrFIVDeRvdO7hAcjYnliNPHu3RDZuqu2RJS8ZQEpxmYP8bOLQWOZqh3xExmMtG5ElOyWPrnBNDSiIwrFXMOAI6c9gNh_8QA0KGRqUtINx7lnRykDyRQ11p4k5swsT53JYOSc.benXE8T.noHanuWvis6s0zHCROkFSeqgsh6_wIMORJR6UIEjJ3pn4J26yy02CidtTSIyzyJ5hCQMC4V76aYPuJfB2xWOYwATTd4L6w7jmIjB1hAMLddSZy.detUO4oL8JA8YDk6B_qMz8g8lTbpDgQqnVlupDRrGezBdY_0XOReXFQk.cjv_LswsYyaafr6WPYognKLOGxnRDXnRcQ--",oauth_signature_method="HMAC-SHA1",oauth_signature="xkda0TiuFyl2iM3jee%2BvgrRAj34%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Wed, 30 Sep 2009 18:22:46 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws133.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 342
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r3.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>field: address field id: 1 for contact id: 407 not found</detail></error>
+)
+
+[30-Sep-2009 12:22:46] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(141): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[30-Sep-2009 12:23:13] ERROR - HTTP request failed
+[30-Sep-2009 12:23:13] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/contact/407/name/1
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="b8dde2c2c501cf5c3073d59f2c69fdba",oauth_timestamp="1254334993",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DO10KDbDGhS8UxMZpMvkBs.kjyhM3J2StgpKE8NhiPh2jwRw9vAIxMP9PimYyDEeNl1YkRknfQIDmtvJkSpnqdwmfNu7Qlf.1RcRpCFidI16VeWZp7TGVt809HyuAkKwvXSn8jAAUmJLv76n0JID9iAHDb91nLqqyzHQq.RVJWWRmsvubEnwv5m4DDaagmqOKUUoVd1Ul4O8CK60OVxoxrJ977t21.7knSwjkdWJI7EuZS7BJI5ZO6LxR2.XR06p4eYHMvmePXFsBCl7rxTz4WZg3H4xCQLibONPmtAOtZ9CrnJSkd6dDAQsV9LlFXk1yyv_urMm_jQoYxj_o1OObbuLcgPa.iIegHKIxVS8SnQhMKuN5b8Mj.n0mGjUpGmDztW5J.zeymWjOsgoTV0IzFOynaEuyxVd_0kxRhU4aTd.TJN7qtutV2HM1SQw_AScYXyh2ux0a2hFqrFIVDeRvdO7hAcjYnliNPHu3RDZuqu2RJS8ZQEpxmYP8bOLQWOZqh3xExmMtG5ElOyWPrnBNDSiIwrFXMOAI6c9gNh_8QA0KGRqUtINx7lnRykDyRQ11p4k5swsT53JYOSc.benXE8T.noHanuWvis6s0zHCROkFSeqgsh6_wIMORJR6UIEjJ3pn4J26yy02CidtTSIyzyJ5hCQMC4V76aYPuJfB2xWOYwATTd4L6w7jmIjB1hAMLddSZy.detUO4oL8JA8YDk6B_qMz8g8lTbpDgQqnVlupDRrGezBdY_0XOReXFQk.cjv_LswsYyaafr6WPYognKLOGxnRDXnRcQ--",oauth_signature_method="HMAC-SHA1",oauth_signature="d4IT5IH8iKCbDRJ0f0papBCR7f4%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Wed, 30 Sep 2009 18:23:13 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws140.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"field: name field id: 1 for contact id: 407 not found"}}
+)
+
+[30-Sep-2009 12:23:13] ERROR - HTTP request failed
+[30-Sep-2009 12:23:13] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/contact/407/name/1?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="f15f21390d3efaeb1d77ebb14624c103",oauth_timestamp="1254334993",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DO10KDbDGhS8UxMZpMvkBs.kjyhM3J2StgpKE8NhiPh2jwRw9vAIxMP9PimYyDEeNl1YkRknfQIDmtvJkSpnqdwmfNu7Qlf.1RcRpCFidI16VeWZp7TGVt809HyuAkKwvXSn8jAAUmJLv76n0JID9iAHDb91nLqqyzHQq.RVJWWRmsvubEnwv5m4DDaagmqOKUUoVd1Ul4O8CK60OVxoxrJ977t21.7knSwjkdWJI7EuZS7BJI5ZO6LxR2.XR06p4eYHMvmePXFsBCl7rxTz4WZg3H4xCQLibONPmtAOtZ9CrnJSkd6dDAQsV9LlFXk1yyv_urMm_jQoYxj_o1OObbuLcgPa.iIegHKIxVS8SnQhMKuN5b8Mj.n0mGjUpGmDztW5J.zeymWjOsgoTV0IzFOynaEuyxVd_0kxRhU4aTd.TJN7qtutV2HM1SQw_AScYXyh2ux0a2hFqrFIVDeRvdO7hAcjYnliNPHu3RDZuqu2RJS8ZQEpxmYP8bOLQWOZqh3xExmMtG5ElOyWPrnBNDSiIwrFXMOAI6c9gNh_8QA0KGRqUtINx7lnRykDyRQ11p4k5swsT53JYOSc.benXE8T.noHanuWvis6s0zHCROkFSeqgsh6_wIMORJR6UIEjJ3pn4J26yy02CidtTSIyzyJ5hCQMC4V76aYPuJfB2xWOYwATTd4L6w7jmIjB1hAMLddSZy.detUO4oL8JA8YDk6B_qMz8g8lTbpDgQqnVlupDRrGezBdY_0XOReXFQk.cjv_LswsYyaafr6WPYognKLOGxnRDXnRcQ--",oauth_signature_method="HMAC-SHA1",oauth_signature="Zlm7de016zw2CdHbFJk3ef2kGMc%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Wed, 30 Sep 2009 18:23:13 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws126.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 339
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>field: name field id: 1 for contact id: 407 not found</detail></error>
+)
+
+[30-Sep-2009 12:23:13] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(141): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[01-Oct-2009 11:12:15] ERROR - HTTP request failed
+[01-Oct-2009 11:12:15] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/contact/209/phone/104
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="01794cd165e788079f9676ce1ed90b62",oauth_timestamp="1254417135",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DOVN.embugFjuDEEBbBkG._qXQzfWp.r_M_kyf7SW5jf6GhuPjsAldJ4ZOeE2AkBM7PUMeE.NxaSZvaX9UP4_AtWdLMkM9v5SwXYtQKGIpz9w7M6IRIn36p2PGLJpuq5tACiktcN63BScKu11lot6aNQXwlbdhcqwkQvN_9Kg1DeKTO71O6t4wKk2pf0twxPglQX3ZaT7ywJsviW2EFFdO0rz6ISEwnYnPs.aJu4k8ISnb5SlcmWGmxAEWL7KPPOxetuH2Cl59oqh0ezMP0iWuDDVSy5SY.QngtcgYstkOSrAzuLtZAX3Rb_4KgwdhHDB7EODEHYcIJyt7y.6NV2SGeudCnsQMBJlfPHv1pj7TN9U27nV4fd_BrNA3BSTpdgo_cVZbQVGqR8ecjTWblYj9rw9IPgaPRROC5OqVrQw5TlmBE_xYYXYXNhZIHE9tZ6v7zT_BSDxTzwxGiBmsyNOgZOwwg8NHbmGlH7GfPDC5iSau7feXnOI_ufe_gbkZbH_N1HbKKS0YjqgMFyRwf4FI6i8LMTwNRY_ryVSmuQd1Dh0pUtqCwR41fbrEiBOyxaksgCCaKZeGDFxw7oCMiWjREC48Bk_CLfVJTT2iOtLoSTe74SLSAxajqtqqzOgw9Km1qQRcLCbl.gVPOYB_atsZdy3rdycxIuHk40vJH8rR8.tRpNnhSOKck8sSeIlAqqM424JJrUhv4IOXq90DTw46ESp5Kbj3uJJSr.J1s6uNTohHlz99GD3eFNn9eSZXYMlYGv3RWOLU3OmGrOa34Od1ZIC4pkOXlOT251TGQ--",oauth_signature_method="HMAC-SHA1",oauth_signature="lZgG8zfcXvoo2pXazBfNyv7EwuM%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 01 Oct 2009 17:12:15 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws138.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r3.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"field: phone field id: 104 for contact id: 209 not found"}}
+)
+
+[01-Oct-2009 11:12:15] ERROR - HTTP request failed
+[01-Oct-2009 11:12:15] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/contact/209/phone/104?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="93bd8365b2efe5b3d2598edaab086982",oauth_timestamp="1254417135",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DOVN.embugFjuDEEBbBkG._qXQzfWp.r_M_kyf7SW5jf6GhuPjsAldJ4ZOeE2AkBM7PUMeE.NxaSZvaX9UP4_AtWdLMkM9v5SwXYtQKGIpz9w7M6IRIn36p2PGLJpuq5tACiktcN63BScKu11lot6aNQXwlbdhcqwkQvN_9Kg1DeKTO71O6t4wKk2pf0twxPglQX3ZaT7ywJsviW2EFFdO0rz6ISEwnYnPs.aJu4k8ISnb5SlcmWGmxAEWL7KPPOxetuH2Cl59oqh0ezMP0iWuDDVSy5SY.QngtcgYstkOSrAzuLtZAX3Rb_4KgwdhHDB7EODEHYcIJyt7y.6NV2SGeudCnsQMBJlfPHv1pj7TN9U27nV4fd_BrNA3BSTpdgo_cVZbQVGqR8ecjTWblYj9rw9IPgaPRROC5OqVrQw5TlmBE_xYYXYXNhZIHE9tZ6v7zT_BSDxTzwxGiBmsyNOgZOwwg8NHbmGlH7GfPDC5iSau7feXnOI_ufe_gbkZbH_N1HbKKS0YjqgMFyRwf4FI6i8LMTwNRY_ryVSmuQd1Dh0pUtqCwR41fbrEiBOyxaksgCCaKZeGDFxw7oCMiWjREC48Bk_CLfVJTT2iOtLoSTe74SLSAxajqtqqzOgw9Km1qQRcLCbl.gVPOYB_atsZdy3rdycxIuHk40vJH8rR8.tRpNnhSOKck8sSeIlAqqM424JJrUhv4IOXq90DTw46ESp5Kbj3uJJSr.J1s6uNTohHlz99GD3eFNn9eSZXYMlYGv3RWOLU3OmGrOa34Od1ZIC4pkOXlOT251TGQ--",oauth_signature_method="HMAC-SHA1",oauth_signature="6u4cN%2FANWvrNh7S0yqMdYRgMfQw%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Thu, 01 Oct 2009 17:12:15 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws103.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 342
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r5.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>field: phone field id: 104 for contact id: 209 not found</detail></error>
+)
+
+[01-Oct-2009 11:12:15] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(141): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 15:42:46] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16 bytes) in /home1/joecater/public_html/apiexplorer/prettify.inc on line 82
+[02-Oct-2009 16:05:38] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 71 bytes) in /home1/joecater/public_html/apiexplorer/prettify.inc on line 85
+[02-Oct-2009 16:09:14] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 24 bytes) in /home1/joecater/public_html/apiexplorer/prettify.inc on line 86
+[02-Oct-2009 16:14:34] PHP Fatal error:  Allowed memory size of 12582912 bytes exhausted (tried to allocate 4134577 bytes) in /home1/joecater/public_html/yosdk/lib/Yahoo.inc on line 1778
+[02-Oct-2009 16:16:30] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/joecater/public_html/apiexplorer/index.php on line 114
+[02-Oct-2009 16:17:53] PHP Fatal error:  Allowed memory size of 62914560 bytes exhausted (tried to allocate 79 bytes) in /home1/joecater/public_html/apiexplorer/prettify.inc on line 102
+[02-Oct-2009 16:53:45] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home1/joecater/public_html/apiexplorer/api.inc on line 12
+[02-Oct-2009 16:54:22] ERROR - HTTP request failed
+[02-Oct-2009 16:54:22] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="9a86213820a7574dcc46a1c4e525c01a",oauth_timestamp="1254524061",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="jwi4rxQYkGk4yhgd1wJeHeRJslc%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 22:54:22 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws122.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r2.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 16:54:22] ERROR - HTTP request failed
+[02-Oct-2009 16:54:22] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="0a3240105d457f7604a62553a3a4bf86",oauth_timestamp="1254524062",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="8Shsr7iZze7MAqhHx7rqETHp0qI%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 22:54:22 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws124.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 16:54:22] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(142): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:02:56] ERROR - HTTP request failed
+[02-Oct-2009 17:02:56] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="c2e43cb54708d2f8e9e3aa87dd1592e8",oauth_timestamp="1254524576",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="2AVW66uGn8tQJTN3Gboflr0zHcM%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:02:56 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws124.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 17:02:57] ERROR - HTTP request failed
+[02-Oct-2009 17:02:57] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="d52926d52f567cfc1051f88e10e78752",oauth_timestamp="1254524576",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="hc%2FcMQXugTIyO7Ec3E0dO1lkSZc%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:02:57 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws112.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 17:02:57] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(148): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:03:43] ERROR - HTTP request failed
+[02-Oct-2009 17:03:43] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="e5f9fb30d5a5f4230580b615e5c0edc6",oauth_timestamp="1254524623",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="0ATP5gJ8O1fmGC0NjUDqq0Zttwo%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:03:43 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws128.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 17:03:43] ERROR - HTTP request failed
+[02-Oct-2009 17:03:43] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="4b21451be2cc8cfc7d2b01cd4d8e2f7a",oauth_timestamp="1254524623",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="r4Pzh5M%2BmUJFDgupE0vyiTf0FzI%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:03:43 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws116.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 17:03:43] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(148): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:06:10] ERROR - HTTP request failed
+[02-Oct-2009 17:06:10] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="cc827a3a65769b6f16920735e30f7d41",oauth_timestamp="1254524770",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="qy%2FGH3h4V5MKU2dbsQInDHB7yT8%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:06:10 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws136.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r2.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 17:06:10] ERROR - HTTP request failed
+[02-Oct-2009 17:06:10] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="c1a95956edb1fa141fbba7b9ee53f29d",oauth_timestamp="1254524770",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="pjSzszFAQpxZUH8gSrGOO40kbv8%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:06:10 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws123.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 17:06:10] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:07:19] ERROR - HTTP request failed
+[02-Oct-2009 17:07:19] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="b1bf783bf6d2c00824824e917e798312",oauth_timestamp="1254524839",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="06ASVov53TZklcT%2BUGPURjBD4Zo%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:07:19 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws124.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 17:07:19] ERROR - HTTP request failed
+[02-Oct-2009 17:07:19] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="e5c40c6c9e56eb4ea39a735bcf07ffb2",oauth_timestamp="1254524839",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="uA5SrRuhbUA8jsB87KXpLm5osRY%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:07:19 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws136.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r5.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 17:07:19] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:08:27] ERROR - HTTP request failed
+[02-Oct-2009 17:08:27] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="d0cffcc680640d55f79d043517f2599d",oauth_timestamp="1254524907",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="jygDCTkYQUTXC5z0Hj7ZlF7wWWs%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:08:27 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws130.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r2.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 17:08:27] ERROR - HTTP request failed
+[02-Oct-2009 17:08:27] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="c71d6252e3a1645b0b743b73ca9ea9b9",oauth_timestamp="1254524907",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="2XRvZ3IYPgq0%2BfZ7i0hh7WbRaOs%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:08:27 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws125.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 17:08:27] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:08:43] ERROR - HTTP request failed
+[02-Oct-2009 17:08:43] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="d4dcf553d9f9a8c84919de8ed9c3dd2a",oauth_timestamp="1254524923",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="BAHZxUoDgGqMocAK6ghXWhs6NCg%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:08:43 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws113.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r3.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 17:08:43] ERROR - HTTP request failed
+[02-Oct-2009 17:08:43] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="00f8aeac190d67b549ba2cc1f399fe01",oauth_timestamp="1254524923",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="wx%2BE6rKRTdc9M7onDWQ5WJflMkI%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:08:43 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws116.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r5.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 17:08:43] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:08:56] ERROR - HTTP request failed
+[02-Oct-2009 17:08:56] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="1ad24cc31edfb951a1a2ce67f04e8799",oauth_timestamp="1254524936",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="s4ETxWjOIy6Fi0U7Qy7z0dBqVnc%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:08:56 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws127.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r2.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 17:08:57] ERROR - HTTP request failed
+[02-Oct-2009 17:08:57] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="58aa27d7b1cc12bede0488112ae56167",oauth_timestamp="1254524936",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="oBgiDFhM9qfZZq1ik63TPw48PlI%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:08:57 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws103.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r5.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 17:08:57] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:09:27] ERROR - HTTP request failed
+[02-Oct-2009 17:09:27] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="f402cf71c4d73be3adde387d1db66948",oauth_timestamp="1254524967",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="BEsOKQFABV5YM7YpUiwfGIp7EtU%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:09:27 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws107.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r3.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 17:09:27] ERROR - HTTP request failed
+[02-Oct-2009 17:09:27] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="42dbee7bf2a70da6367f2e498f2744ac",oauth_timestamp="1254524967",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="I9steewGXJnLYHZBiWpAM63dGro%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:09:27 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws110.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r5.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 17:09:27] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:09:46] ERROR - HTTP request failed
+[02-Oct-2009 17:09:46] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="d73c46fb904544cbd78aff09b2b5ec23",oauth_timestamp="1254524986",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="NGntq2r2CdddtPuP%2FWqMtgLETV4%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:09:46 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws101.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r3.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 17:09:46] ERROR - HTTP request failed
+[02-Oct-2009 17:09:46] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="9ae41f672c235f4bab24f8b6b0fec4ca",oauth_timestamp="1254524986",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="fX%2FYtf0nS3IHDiqOiCUegkueYb0%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:09:46 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws103.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r5.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 17:09:46] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:09:58] ERROR - HTTP request failed
+[02-Oct-2009 17:09:58] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="0972bc711333b02b167b86ab98b5263a",oauth_timestamp="1254524998",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="0iZUyuo0SuP9U1G5tTwsppEdLkg%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:09:58 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws120.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 17:09:58] ERROR - HTTP request failed
+[02-Oct-2009 17:09:58] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="187ee15b3776b2894b28d24714dc727d",oauth_timestamp="1254524998",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="UBJ0pyaCLYb4SCsg4jtnpmFHkBw%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:09:58 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws123.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 17:09:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:10:13] ERROR - HTTP request failed
+[02-Oct-2009 17:10:13] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="d18e5ffe355fa042ec256b95d9f28c6f",oauth_timestamp="1254525013",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="CppSTnl%2F7JLFHqPtLLSP81hjjXY%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:10:13 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws102.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Type] => application/json; charset="utf-8"
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => {"error":{"uri":"http://www.yahooapis.com/v1/errors/404","lang":"en-US","description":"Resource not found","detail":"Resource Not Found: "}}
+)
+
+[02-Oct-2009 17:10:13] ERROR - HTTP request failed
+[02-Oct-2009 17:10:13] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/disclosures?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="3b58133524b14524912ab0d4cae4adee",oauth_timestamp="1254525013",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="2k9bWk7yVvG56n1QMay5rJkk7%2FU%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:10:13 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Authorization
+            [X-Yahoo-Social-Host] => ws104.socdir.sp2.yahoo.com
+            [Cache-Control] => private
+            [Content-Length] => 306
+            [Content-Type] => application/xml; charset="utf-8"
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r5.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version="1.0" encoding="utf-8"?><error xmlns="http://social.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://www.yahooapis.com/v1/errors/404" yahoo:lang="en-US"><description>Resource not found</description><detail>Resource Not Found: </detail></error>
+)
+
+[02-Oct-2009 17:10:13] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:10:21] ERROR - HTTP request failed
+[02-Oct-2009 17:10:21] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/images/16x16
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="20158e6a4fe5a5db594cef2b169ad5aa",oauth_timestamp="1254525021",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="lD4cEnKLmjW0wFSFR3b%2BxhaQF7M%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:10:21 GMT
+            [Content-Type] => application/xml
+            [Content-Language] => en
+            [Content-Length] => 223
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version='1.0' encoding='utf-8'?>
+<error xmlns='http://yahooapis.com/v1/base.rng' 
+       xml:lang='en'>
+    <description>404 Not Found</description>
+    <detail>URI has no match in the dispatch map
+</detail>
+</error>
+
+)
+
+[02-Oct-2009 17:10:21] ERROR - HTTP request failed
+[02-Oct-2009 17:10:21] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/images/16x16?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="d24d0e381d332981f4c2d78fa38d0892",oauth_timestamp="1254525021",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="Uvdt1Ikk9RdrSRh3x22zkIeoN88%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:10:21 GMT
+            [Content-Type] => application/xml
+            [Content-Language] => en
+            [Content-Length] => 223
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r3.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version='1.0' encoding='utf-8'?>
+<error xmlns='http://yahooapis.com/v1/base.rng' 
+       xml:lang='en'>
+    <description>404 Not Found</description>
+    <detail>URI has no match in the dispatch map
+</detail>
+</error>
+
+)
+
+[02-Oct-2009 17:10:21] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:10:33] ERROR - HTTP request failed
+[02-Oct-2009 17:10:33] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/me/guid
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="05f6dd6888ce640f63e6ff1e019b8d7d",oauth_timestamp="1254525033",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="JCmfNko9rTlgB33GVdCNVMfovuo%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:10:33 GMT
+            [Connection] => close
+            [Via] => HTTP/1.1 r2.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [c s f ])
+            [Server] => YTS/1.17.16
+            [Cache-Control] => no-store
+            [Content-Type] => text/html
+            [Content-Language] => en
+            [Content-Length] => 176
+        )
+
+    [responseBody] => <HEAD><TITLE>Not Found</TITLE></HEAD>
+<BODY BGCOLOR="white" FGCOLOR="black">
+<FONT FACE="Helvetica,Arial"><B>
+</B></FONT>
+
+<!-- default "Not Found" response (404) -->
+</BODY>
+
+[02-Oct-2009 17:10:33] ERROR - HTTP request failed
+[02-Oct-2009 17:10:33] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/me/guid?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="ca50fb1f0377934be71e816ddba7d1b5",oauth_timestamp="1254525033",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="Ilfu%2FgS2L0tY%2BuV%2FTBuDMKTdSA0%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:10:33 GMT
+            [Connection] => close
+            [Via] => HTTP/1.1 r5.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [c s f ])
+            [Server] => YTS/1.17.16
+            [Cache-Control] => no-store
+            [Content-Type] => text/html
+            [Content-Language] => en
+            [Content-Length] => 176
+        )
+
+    [responseBody] => <HEAD><TITLE>Not Found</TITLE></HEAD>
+<BODY BGCOLOR="white" FGCOLOR="black">
+<FONT FACE="Helvetica,Arial"><B>
+</B></FONT>
+
+<!-- default "Not Found" response (404) -->
+</BODY>
+
+[02-Oct-2009 17:10:33] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:10:52] ERROR - HTTP request failed
+[02-Oct-2009 17:10:52] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/images/16x16
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="0e25be87bffcb3ac1bc1a0532450ecb7",oauth_timestamp="1254525052",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="pXjiUQQrA1NJtXAbwEFIuLpNnI8%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:10:52 GMT
+            [Content-Type] => application/xml
+            [Content-Language] => en
+            [Content-Length] => 223
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version='1.0' encoding='utf-8'?>
+<error xmlns='http://yahooapis.com/v1/base.rng' 
+       xml:lang='en'>
+    <description>404 Not Found</description>
+    <detail>URI has no match in the dispatch map
+</detail>
+</error>
+
+)
+
+[02-Oct-2009 17:10:52] ERROR - HTTP request failed
+[02-Oct-2009 17:10:52] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/images/16x16?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="432bd8df5faf781cc04ce001a57d448e",oauth_timestamp="1254525052",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="b%2F%2Bi0PCDUrP2NVCZ7gNFaPB5cE4%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:10:52 GMT
+            [Content-Type] => application/xml
+            [Content-Language] => en
+            [Content-Length] => 223
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version='1.0' encoding='utf-8'?>
+<error xmlns='http://yahooapis.com/v1/base.rng' 
+       xml:lang='en'>
+    <description>404 Not Found</description>
+    <detail>URI has no match in the dispatch map
+</detail>
+</error>
+
+)
+
+[02-Oct-2009 17:10:52] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:11:19] ERROR - HTTP request failed
+[02-Oct-2009 17:11:19] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="333b40db1bc7cb08503440065b20335f",oauth_timestamp="1254525079",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="QmjmHarybJWthYtKokCzCkJYaOA%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:11:19 GMT
+            [Connection] => close
+            [Via] => HTTP/1.1 r2.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [c s f ])
+            [Server] => YTS/1.17.16
+            [Cache-Control] => no-store
+            [Content-Type] => text/html
+            [Content-Language] => en
+            [Content-Length] => 176
+        )
+
+    [responseBody] => <HEAD><TITLE>Not Found</TITLE></HEAD>
+<BODY BGCOLOR="white" FGCOLOR="black">
+<FONT FACE="Helvetica,Arial"><B>
+</B></FONT>
+
+<!-- default "Not Found" response (404) -->
+</BODY>
+
+[02-Oct-2009 17:11:19] ERROR - HTTP request failed
+[02-Oct-2009 17:11:19] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="437d74f7496df14afd3eae2ff9a81819",oauth_timestamp="1254525079",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="pmj4OmSDw4aEdE26hAwLQM5xbVg%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:11:19 GMT
+            [Connection] => close
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [c s f ])
+            [Server] => YTS/1.17.16
+            [Cache-Control] => no-store
+            [Content-Type] => text/html
+            [Content-Language] => en
+            [Content-Length] => 176
+        )
+
+    [responseBody] => <HEAD><TITLE>Not Found</TITLE></HEAD>
+<BODY BGCOLOR="white" FGCOLOR="black">
+<FONT FACE="Helvetica,Arial"><B>
+</B></FONT>
+
+<!-- default "Not Found" response (404) -->
+</BODY>
+
+[02-Oct-2009 17:11:19] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(149): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:21:50] ERROR - Error making libcurl request(http://social/yahooapis.com/v1/user): Couldn't resolve host 'social'
+[02-Oct-2009 17:21:50] ERROR - Error making libcurl request(http://social/yahooapis.com/v1/user?format=xml): Couldn't resolve host 'social'
+[02-Oct-2009 17:21:50] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(153): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:22:04] ERROR - Error making libcurl request(http://social/yahooapis.com/v1/user): Couldn't resolve host 'social'
+[02-Oct-2009 17:22:04] ERROR - Error making libcurl request(http://social/yahooapis.com/v1/user?format=xml): Couldn't resolve host 'social'
+[02-Oct-2009 17:22:04] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(153): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:23:15] ERROR - Error making libcurl request(http://social/yahooapis.com/v1/user/me/guid): Couldn't resolve host 'social'
+[02-Oct-2009 17:23:15] ERROR - Error making libcurl request(http://social/yahooapis.com/v1/user/me/guid?format=xml): Couldn't resolve host 'social'
+[02-Oct-2009 17:23:15] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(153): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:23:31] ERROR - Error making libcurl request(http://social/yahooapis.com/v1/user/me/guid): Couldn't resolve host 'social'
+[02-Oct-2009 17:23:31] ERROR - Error making libcurl request(http://social/yahooapis.com/v1/user/me/guid?format=xml): Couldn't resolve host 'social'
+[02-Oct-2009 17:23:31] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(153): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:24:17] ERROR - Error making libcurl request(http://social/yahooapis.com/v1/me/guid): Couldn't resolve host 'social'
+[02-Oct-2009 17:24:17] ERROR - Error making libcurl request(http://social/yahooapis.com/v1/me/guid?format=xml): Couldn't resolve host 'social'
+[02-Oct-2009 17:24:17] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(153): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:25:13] ERROR - HTTP request failed
+[02-Oct-2009 17:25:13] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/images/16x16
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="573a9dcc5624a347ad88e106e1c1fa21",oauth_timestamp="1254525912",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="i1Nlz7NhNYHZ1j2FDZS0Pt91oZM%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:25:13 GMT
+            [Content-Type] => application/xml
+            [Content-Language] => en
+            [Content-Length] => 223
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r2.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version='1.0' encoding='utf-8'?>
+<error xmlns='http://yahooapis.com/v1/base.rng' 
+       xml:lang='en'>
+    <description>404 Not Found</description>
+    <detail>URI has no match in the dispatch map
+</detail>
+</error>
+
+)
+
+[02-Oct-2009 17:25:13] ERROR - HTTP request failed
+[02-Oct-2009 17:25:13] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4/profile/images/16x16?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="310faaa3cc084f6698d2daa52e7c2006",oauth_timestamp="1254525913",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="DwGmxg6zdV5totYeSroHqjQCs%2FE%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:25:13 GMT
+            [Content-Type] => application/xml
+            [Content-Language] => en
+            [Content-Length] => 223
+            [Age] => 0
+            [Connection] => keep-alive
+            [Via] => HTTP/1.1 r3.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [cMsSf ])
+            [Server] => YTS/1.17.16
+        )
+
+    [responseBody] => <?xml version='1.0' encoding='utf-8'?>
+<error xmlns='http://yahooapis.com/v1/base.rng' 
+       xml:lang='en'>
+    <description>404 Not Found</description>
+    <detail>URI has no match in the dispatch map
+</detail>
+</error>
+
+)
+
+[02-Oct-2009 17:25:13] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(153): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:28:59] ERROR - HTTP request failed
+[02-Oct-2009 17:28:59] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="9a58cf57438a274c93361ce928dd6273",oauth_timestamp="1254526139",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="dpx1qiN2w86kYrDrCCQiZXCvqJc%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:28:59 GMT
+            [Connection] => close
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [c s f ])
+            [Server] => YTS/1.17.16
+            [Cache-Control] => no-store
+            [Content-Type] => text/html
+            [Content-Language] => en
+            [Content-Length] => 176
+        )
+
+    [responseBody] => <HEAD><TITLE>Not Found</TITLE></HEAD>
+<BODY BGCOLOR="white" FGCOLOR="black">
+<FONT FACE="Helvetica,Arial"><B>
+</B></FONT>
+
+<!-- default "Not Found" response (404) -->
+</BODY>
+
+[02-Oct-2009 17:28:59] ERROR - HTTP request failed
+[02-Oct-2009 17:28:59] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="14409d7e886f5673402917865c14707e",oauth_timestamp="1254526139",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="YFhjTQdSzFWM8HNOWJut74amE18%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:28:59 GMT
+            [Connection] => close
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [c s f ])
+            [Server] => YTS/1.17.16
+            [Cache-Control] => no-store
+            [Content-Type] => text/html
+            [Content-Language] => en
+            [Content-Length] => 176
+        )
+
+    [responseBody] => <HEAD><TITLE>Not Found</TITLE></HEAD>
+<BODY BGCOLOR="white" FGCOLOR="black">
+<FONT FACE="Helvetica,Arial"><B>
+</B></FONT>
+
+<!-- default "Not Found" response (404) -->
+</BODY>
+
+[02-Oct-2009 17:28:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(153): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:29:53] ERROR - HTTP request failed
+[02-Oct-2009 17:29:53] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="4f831998322cce05425a0b3ed7a97448",oauth_timestamp="1254526193",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="4UBsHgqpMYcem1X%2BI185cgQOMZQ%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:29:53 GMT
+            [Connection] => close
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [c s f ])
+            [Server] => YTS/1.17.16
+            [Cache-Control] => no-store
+            [Content-Type] => text/html
+            [Content-Language] => en
+            [Content-Length] => 176
+        )
+
+    [responseBody] => <HEAD><TITLE>Not Found</TITLE></HEAD>
+<BODY BGCOLOR="white" FGCOLOR="black">
+<FONT FACE="Helvetica,Arial"><B>
+</B></FONT>
+
+<!-- default "Not Found" response (404) -->
+</BODY>
+
+[02-Oct-2009 17:29:53] ERROR - HTTP request failed
+[02-Oct-2009 17:29:53] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="933b9761c7d1ece4988495688b677762",oauth_timestamp="1254526193",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="27j3nobCDnJP9FWTOqAPzWA%2BJs4%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:29:53 GMT
+            [Connection] => close
+            [Via] => HTTP/1.1 r4.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [c s f ])
+            [Server] => YTS/1.17.16
+            [Cache-Control] => no-store
+            [Content-Type] => text/html
+            [Content-Language] => en
+            [Content-Length] => 176
+        )
+
+    [responseBody] => <HEAD><TITLE>Not Found</TITLE></HEAD>
+<BODY BGCOLOR="white" FGCOLOR="black">
+<FONT FACE="Helvetica,Arial"><B>
+</B></FONT>
+
+<!-- default "Not Found" response (404) -->
+</BODY>
+
+[02-Oct-2009 17:29:53] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(153): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 17:31:25] ERROR - HTTP request failed
+[02-Oct-2009 17:31:25] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="b9277fde120ddd82c22881bf687a00a5",oauth_timestamp="1254526284",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="ZNBtz1LnvGO%2F5wNNAtk3DkHOAu8%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:31:25 GMT
+            [Connection] => close
+            [Via] => HTTP/1.1 r3.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [c s f ])
+            [Server] => YTS/1.17.16
+            [Cache-Control] => no-store
+            [Content-Type] => text/html
+            [Content-Language] => en
+            [Content-Length] => 176
+        )
+
+    [responseBody] => <HEAD><TITLE>Not Found</TITLE></HEAD>
+<BODY BGCOLOR="white" FGCOLOR="black">
+<FONT FACE="Helvetica,Arial"><B>
+</B></FONT>
+
+<!-- default "Not Found" response (404) -->
+</BODY>
+
+[02-Oct-2009 17:31:25] ERROR - HTTP request failed
+[02-Oct-2009 17:31:25] ERROR OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/UQIDWJNWVNQD4GXZ5NGMZUSTQ4?format=xml
+    [code] => 404
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth oauth_version="1.0",oauth_nonce="8e529e5ac03b9e2b79b2c7d69c597639",oauth_timestamp="1254526285",oauth_consumer_key="dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy",oauth_token="A%3DI3WSFkvsnQJvmgi_jMe7bVPfhc_8uvRShTNiFEm_icGHDIRy7Mp8XlHKfbB0QRDOjCFhcktfCGn0RiixrdIpm2TGwc9Ut8fOVqgPBEMfPkstK4MRzeL.5RX3JPmOkLvd6u.QgY4WRGbGGt78atT_xagyMZv7tpwu4GeBzCqHwzNMwkweYnZPS0UiVaW1xpkGWG4k_zBofm.iWOARIS.njPtqWYah6KfIjipbaVkNfFKg11IVzhyzgXQjj_zWHaZK34z0R2N90Saba1X79uh9oAKQT8sAVKNKfi8fhPFJWvHBecDvuNZwIUelEtw5ezTNZ5c6rb2vyz_O8ZnKFtpzPHKRuOyTEoAUGj7.IcLuYYW2N9UcShk4lnn2KknQB1yVprjtUE3zAhjyCR056z6_ShEZUOuP7dtcBAyj3aenE0uMJPrXmxVmRSomDe948syajrxZiAfVIW.vb.aVL4pfzjRvKRew0CA.Sinlzjl6FXE4IlPBKug1HauScmGvYFs0UWdqiEG2sQUgMOwcokZ0wuOnOwrlD7hwL9apC2JyPRAmBnGcFy_UFQ93qxWHKWSv.nbxJI0V2TEM_pIbDTWnAYfOEwDV_eX0tnBBLb5K_rBhLX9ri4QLLTJznPxxQDWSRecCCj71oO2ogHZTcLkyTHGW3w3VcNyjG5G.03kYFUo9z5Pb..s9m0lzoeO7sp0MZi5m0rPs6MKtxjDU4zWAG.AuoW.qozWPKPDgBC5GncDUouGa2mpJGC3V5DfhmSpQ4khlgO9Cj4r2FGMivgHTP7NUyXk0E3tTcA--",oauth_signature_method="HMAC-SHA1",oauth_signature="R%2F0WX7M8SbVBo0lcTNBpchRfok4%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Fri, 02 Oct 2009 23:31:25 GMT
+            [Connection] => close
+            [Via] => HTTP/1.1 r1.ycpi.s1s.yahoo.net (YahooTrafficServer/1.17.16 [c s f ])
+            [Server] => YTS/1.17.16
+            [Cache-Control] => no-store
+            [Content-Type] => text/html
+            [Content-Language] => en
+            [Content-Length] => 176
+        )
+
+    [responseBody] => <HEAD><TITLE>Not Found</TITLE></HEAD>
+<BODY BGCOLOR="white" FGCOLOR="black">
+<FONT FACE="Helvetica,Arial"><B>
+</B></FONT>
+
+<!-- default "Not Found" response (404) -->
+</BODY>
+
+[02-Oct-2009 17:31:25] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home1/joecater/public_html/apiexplorer/prettify.inc:76
+Stack trace:
+#0 /home1/joecater/public_html/apiexplorer/prettify.inc(76): SimpleXMLElement->__construct('')
+#1 /home1/joecater/public_html/apiexplorer/index.php(153): xmlpp(NULL)
+#2 {main}
+  thrown in /home1/joecater/public_html/apiexplorer/prettify.inc on line 76
+[02-Oct-2009 18:10:17] PHP Parse error:  syntax error, unexpected '}' in /home1/joecater/public_html/apiexplorer/prettify.inc on line 16
+[02-Oct-2009 18:10:41] PHP Parse error:  syntax error, unexpected '}' in /home1/joecater/public_html/apiexplorer/prettify.inc on line 16
+[02-Oct-2009 18:10:45] PHP Parse error:  syntax error, unexpected '}' in /home1/joecater/public_html/apiexplorer/prettify.inc on line 16
+[02-Oct-2009 18:10:52] PHP Parse error:  syntax error, unexpected '}' in /home1/joecater/public_html/apiexplorer/prettify.inc on line 16
+[02-Oct-2009 18:13:10] PHP Parse error:  syntax error, unexpected ':' in /home1/joecater/public_html/apiexplorer/prettify.inc on line 15
+[02-Oct-2009 18:35:59] PHP Warning:  json_decode() expects at most 2 parameters, 3 given in /home1/joecater/public_html/apiexplorer/prettify.inc on line 9
+[02-Oct-2009 18:41:29] PHP Parse error:  syntax error, unexpected T_ELSE in /home1/joecater/public_html/apiexplorer/prettify.inc on line 13
