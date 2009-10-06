@@ -24,12 +24,11 @@
 				<div id='profiles'>
 				<h4>Profiles API</h4>
 				<ul>
-				<li><a href='?api=profile'>Profiles</a></li>
+        			<li><a href='?api=introspective_guid'>Introspective GUID</a></li>
 				<li><a href='?api=tinyusercard'>Tinyusercard</a></li>
-				<li><a href='?api=usercard'>Usercard</a></li>
-				<li><a href='?api=contactcard'>Contactcard</a></li>
-        <li><a href='?api=introspective_guid'>Introspective GUID</a></li>
 				<li><a href='?api=idcard'>IDCard</a></li>
+				<li><a href='?api=usercard'>Usercard</a></li>
+				<li><a href='?api=profile'>Profiles</a></li>
 				<li><a href='?api=schools'>Schools</a></li>
 				<li><a href='?api=works'>Works</a></li>
 				<li><a href='?api=images'>Images</a></li>
