@@ -1,6 +1,9 @@
 <?
 function json_format($json)
 {
+    if(is_null($json)){
+        return "error: { message: 'No response was returned.' }";
+    }     
     $tab = "  ";
     $new_json = "";
     $indent_level = 0;
