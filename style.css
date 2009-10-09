@@ -1,15 +1,16 @@
 <style type='text/css'>
-hr { width: 800px; margin-left: 0; }
+hr { width: 780px; margin-left: 0; }
 h2,h3 { color: purple; }
-h4 { color: #000033; }
+h4 { color: #000033; font-size: 14px;}
+h4 a { text-decoration: none; }
+b a { text-decoration: none; }
+li { margin-left: -10px; }
+input { background-color: #CCCCCC; }
 #profiles,#contacts,#connections,#status,#updates { float: left; padding-right: 3px; padding-left: 3px;
-border: 1px solid black; height: 255px; width: 150px; }
-textarea { background-color: #CCCCCC; }
-#response_header {float: right; margin-right: 250px;}
+border: 1px solid black; height: 200px; width: 140px; }
+textarea { border: 1px groove black; background-color: #CCCCCC; }
+#response_header {float: right; margin-right: 325px;}
 #request_header { float: left; clear: left; } 
 #xml_response, #json_response { display: block; clear: left; padding-top: 5px; clear: right;}
-textarea { border: 1px groove black; }
-
-
 </style>
 

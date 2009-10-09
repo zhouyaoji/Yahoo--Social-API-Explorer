@@ -1,4 +1,6 @@
 <?php
+
+  // Set memory limit to handle large responses for updates of connections
   ini_set('memory_limit', '100M');
   // Get the Yahoo! Social SDK for PHP: http://github.com/yahoo/yos-social-php
   // Include PHP SDK for authorization and making requests to API endpoints
@@ -14,21 +16,26 @@
 			$_GET['oauth_verifier']);
 ?>
     <head>
+    <title>Yahoo! Social API Explorer</title>
+   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/fonts/fonts-min.css" />
+   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/container/assets/skins/sam/container.css" />
     <?php include("style.css"); ?> 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/container/container-min.js"></script>
     </head>
-    <body style='margin-left: 20%;'>
+    <body class="yui-skin-sam" style='margin-left: 20%;'>
   		<div id='main'>
 
 				<h2 style='margin-left: 22%;'>Yahoo! Social API Explorer</h3>
 
         <!-- Links for Profiles API in first column 'profiles'. -->
 				<div id='profiles'>
-				<h4>Profiles API</h4>
+				<h4 id='profiles_title'><a href='http://developer.yahoo.com/social/rest_api_guide/social_dir_api.html#social_dir_intro-profiles'>
+        Profiles API</a></h4>
 				<ul>
 				<li><a href='?api=profile'>Profiles</a></li>
 				<li><a href='?api=tinyusercard'>Tinyusercard</a></li>
 				<li><a href='?api=usercard'>Usercard</a></li>
-				<li><a href='?api=contactcard'>Contactcard</a></li>
         <li><a href='?api=introspective_guid'>Introspective GUID</a></li>
 				<li><a href='?api=idcard'>IDCard</a></li>
 				<li><a href='?api=schools'>Schools</a></li>
@@ -39,7 +46,7 @@
  
         <!-- Links for Connections API in 2nd column 'connections'. -->
 				<div id='connections'>
-				<h4>Connections API</h4>
+				<h4><a id='connections_title' href='http://developer.yahoo.com/social/rest_api_guide/social_dir_api.html#social_dir_intro-connections'>Connections API</a></h4>
 				<ul>
 				<li><a href='?api=connections'>Connections</a>
 				</ul>
@@ -47,7 +54,7 @@
 
         <!-- Links for Contacts API in 3rd column 'contacts'. -->
 				<div id='contacts'>
-				<h4>Contacts API</h4>
+				<h4 id='contacts_title'><a href="http://developer.yahoo.com/social/rest_api_guide/contacts-resource.html">Contacts API</a></h4>
 				<ul>
 				<li><a href='?api=contacts'>Contacts</a></li>
 				<li><a href='?api=contacts_tinyusercard'>Contacts Tinyusercard</a></li>
@@ -58,7 +65,7 @@
 
         <!-- Links for Status API in 4th column 'status'. -->
 				<div id='status'>
-				<h4>Status API</h4>
+				<h4 id='status_title'><a href="http://developer.yahoo.com/social/rest_api_guide/status_api.html">Status API</a></h4>
 				<ul>
 				<li><a href='?api=status'>Status</a></li>
 				</ul>
@@ -66,25 +73,12 @@
        
         <!-- Links for Updates API in 5th column 'updates' -->
 				<div id='updates'>
-				<h4>Updates API</h4>
+				<h4 id='updates_title'><a href="http://developer.yahoo.com/social/rest_api_guide/updates_api.html">Updates API</a></h4>
 				<ul>
 				<li><a href='?api=updates'>Updates</a></li>
 				<li><a href='?api=updates_connections'>Updates for Connections</a></li>
 				</ul>
 				</div>
-
-        <!-- Text box for manually entering a YSP API URI.
-				<div id='enter_api' style='margin-top: 285px; clear: left;'>
-				<form name='enter_uri' href='api_tester.php' method='GET'>
-				Enter URI:
-				<input name='enter_uri' id='uri_input' type='text' size='80' value='<?php echo $original_endpoint ? $original_endpoint : ""; ?>'/>
-				<p>
-				<input type='submit' value='Make Request' name='request' />
-				</p>
-				<p>
-				</form>
-				</div>
--->
 
         <!-- Section for including information about the user and API being called. 
              * GUID
@@ -137,11 +131,11 @@
     // document.getElementById('uri_input').innerHTML += <?php echo '"' . $original_endpoint . '";'; ?>
   </script>
         <!-- Text box for manually entering a YSP API URI. -->
-        <div id='enter_api' style='margin-top: 285px; clear: left;'>
-        <b>GUID:</b> <?php echo " $session->guid"; ?>
+        <div id='enter_api' style='margin-top: 235px; clear: left;'>
+        <b id='guid'><a href="http://developer.yahoo.com/social/rest_api_guide/web-services-guids.html">GUID:</a></b> <?php echo " $session->guid"; ?>
         <form name='enter_uri' href='api_tester.php' method='GET'>
-        Enter URI:
-        <input name='enter_uri' id='uri_input' type='text' size='80' value='<?php echo $original_endpoint ? $original_endpoint : ""; ?>'/>
+        <b>URI:&nbsp;&nbsp;</b>
+        <input name='enter_uri' id='uri_input' type='text' size='100' value='<?php echo $original_endpoint ? $original_endpoint : ""; ?>'/>
         <p>
         <input type='submit' value='Make Request' name='request' />
         </p>
@@ -231,7 +225,7 @@ unset($_GET);
 				}
 	  //document.getElementById('format_button').addEventListener('click',format_toggle(),false);
 </script>
-</body>
+    <script type="text/javascript" src="tooltips.js"></script>
 <?php
 }
 ?>
