@@ -8,8 +8,8 @@
   include("api.inc");
   // Contains Consumer Key, Consumer Secret, and AppID
   include("keys.inc");
-   // Create a session w/ keys, callback URL and cookie session store 
-	 $session = YahooSession::requireSession($api_key, $shared_secret, $appid, "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'], new CookieSessionStore(),
+  // Create a session w/ keys, callback URL and cookie session store 
+  $session = YahooSession::requireSession($api_key, $shared_secret, $appid, "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'], new CookieSessionStore(),
 			$_GET['oauth_verifier']);
 ?>
     <head>
@@ -24,12 +24,11 @@
 				<div id='profiles'>
 				<h4>Profiles API</h4>
 				<ul>
-				<li><a href='?api=profile'>Profiles</a></li>
+        			<li><a href='?api=introspective_guid'>Introspective GUID</a></li>
 				<li><a href='?api=tinyusercard'>Tinyusercard</a></li>
-				<li><a href='?api=usercard'>Usercard</a></li>
-				<li><a href='?api=contactcard'>Contactcard</a></li>
-        <li><a href='?api=introspective_guid'>Introspective GUID</a></li>
 				<li><a href='?api=idcard'>IDCard</a></li>
+				<li><a href='?api=usercard'>Usercard</a></li>
+				<li><a href='?api=profile'>Profiles</a></li>
 				<li><a href='?api=schools'>Schools</a></li>
 				<li><a href='?api=works'>Works</a></li>
 				<li><a href='?api=images'>Images</a></li>
@@ -73,10 +72,10 @@
 				</div>
 
         <!-- Text box for manually entering a YSP API URI. -->
-				<div id='enter_api' style='margin-top: 285px; clear: left;'>
+				<div id='enter_api' style='margin-top: 285px;'>
 				<form name='enter_uri' href='api_tester.php' method='GET'>
 				Enter URI:
-				<input name='enter_uri' type='text' size='80'/>
+				<input name='enter_uri' type='text' size='50'/>
 				<p>
 				<input type='submit' value='Make Request' name='request' />
 				</p>
@@ -141,60 +140,16 @@ unset($_GET);
 ?>
 <div id='results' style='margin-top: 10px; padding: 5px;'>
 <hr />
-<div id='request_header'>
-<h3>Request Header</h3>
-<textarea id='headers' rows='15' cols='50' wrap='virtual'>
-<?php 
-  if($response_xml){
-      echo "HTTP Method: " . $response_xml['method'] . "\n\n";
-      echo "HTTP Status Code: " . $response_xml['code'] . "\n\n";    
-  }else{
-     display_error("No request header is available.","text");
-  }
-  if($response_xml['requestHeaders']){ 
-      //print_r($response_xml);
-     if($response_xml['requestHeaders']){
-       foreach($response_xml['requestHeaders'] as $field){
-          if(strpos($field,",")!=false){
-            $fields = explode(',',$field);
-            foreach($fields as $line){
-              echo "$line\n\n";
-           }
-         }else {
-          echo $field . "\n\n";
-       }
-     }
-    }
-  }
-?>
-</textarea>
-</div>
-<div id='response_header'>
-<h3>Response Header</h3>
-<textarea id='responseheaders' rows='15' cols='50' wrap='virtual'>
-<?php 
-  if($response_xml['responseHeaders']){ 
-    foreach($response_xml['responseHeaders'] as $field => $value){
-    echo "$field: $value\n\n";
-   }
-  }
-  else {
-    display_error("No response header is available.","text");
-  }
-?></textarea>
-</div>
 <div id='xml_response'>
 <h3>XML Response</h3>
-<textarea id='xml_resp' rows='15' cols='110' wrap='virtual'>
-<?php 
-     echo xmlpp($response_xml['responseBody']);
-?></textarea>
+<textarea id='xml_resp' style='border: 1px groove black; width: 650px; height: 200px; overflow: auto;' cols='80' rows='20'>
+<?= xmlpp($response_xml['responseBody']);?></textarea>
 </div>
-<div id='json_response'>
+<div id='json_response' style='display: block;'>
 <h3>JSON Response</h3>
-<textarea id='json_resp' rows='15' cols='110' wrap='virtual' autoflow='auto'> <?php 
-        echo json_format($response['responseBody']); 
-?>
+<textarea id='json_resp' style='border: 1px groove black; width: 650px; height: 200px; overflow: auto;' cols='80' rows='20'>
+<?php echo json_format($response['responseBody']); ?>
+<?php // echo "<pre>" . print_r($response['responseBody']) . "</pre>"; ?>
 </textarea>
 </div>
 </div>

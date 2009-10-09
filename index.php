@@ -9,7 +9,7 @@
   // Contains Consumer Key, Consumer Secret, and AppID
   include("keys.inc");
    // Create a session w/ keys, callback URL and cookie session store 
-	 $session = YahooSession::requireSession($api_key, $shared_secret, $appid, "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'], new CookieSessionStore(),
+	 $session = YahooSession::requireSession($ck, $cs, $appid, "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'], new CookieSessionStore(),
 			$_GET['oauth_verifier']);
 ?>
     <head>

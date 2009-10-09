@@ -1,8 +1,5 @@
 <?
-// Go to https://developer.apps.yahoo.com/dashboard/createKey.html and create an application
-// You will receive an API Key (Consumer Key), Shared Secret (Consumer Secret), and App ID. 
-// Copy those keys and save them to the variables below. These keys are needed for OAuth authorization. 
-$api_key = "";
-$shared_secret = "";
-$appid = "";
+$api_key = "dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy";
+$shared_secret = "165dbce917b4f4b352739a40f734af3ecdad639c";
+$appid = "9cZ7lJ6g";
 ?>

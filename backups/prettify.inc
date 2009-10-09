@@ -1,27 +1,9 @@
 <?
-function display_error($msg,$fmt)
-{
-  $error = "";
-  if($fmt=="json")
-  {
-    $error = '"error": { "message": "'. $msg. '" }';
-  }
-  else if($fmt=='xml')
-  {
-    $error = "<error>\n  <message>" . $msg . "</message>\n</error>";
-  }
-  else {
-     $error = "Error: $msg";
-  }
-  echo $error;
-}
 function json_format($json)
 {
     if(is_null($json)){
-       display_error("No JSON response was returned.","json");
-       return;
-    }
-
+        return "error: { message: 'No response was returned.' }";
+    }     
     $tab = "  ";
     $new_json = "";
     $indent_level = 0;
@@ -92,8 +74,7 @@ function json_format($json)
 }
 function xmlpp($xml, $html_output=false) {
     if(is_null($xml)){
-        display_error("No XML response was returned.",'xml');
-        return;
+        return "<error><message>No response was returned.</message></error>";
     } 
     $xml_obj = new SimpleXMLElement($xml);
     $level = 4;
