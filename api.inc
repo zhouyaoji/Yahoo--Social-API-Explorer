@@ -3,7 +3,7 @@
     $socdir = array("profile"=>"/profile","tinyusercard"=>"/profile/tinyusercard",
                   "introspective_guid"=>"/me/guid",
                   "usercard"=>"/profile/usercard","idcard"=>"/profile/idcard",
-                  "contactcard"=>"/profile/contactcard","work"=>"/profile/works",
+                  "work"=>"/profile/works",
                   "school"=>"/profile/schools","contacts"=>"/contacts", "contacts_tinyusercard"=>"/contacts?view=tinyusercard",
                   "contacts_bucket"=>'/contacts;bucket=0;maxbucketsize=2;minbucketcount=2?view=bucketinfo',
                   "categories"=>"/categories","status"=>"/profile/status",

@@ -1,5 +1,7 @@
 <?
-$api_key = "dj0yJmk9N1ZGSGxiejlubEpHJmQ9WVdrOU9XTmFOMnhLTm1jbWNHbzlOakl5T1RreU5EZ3kmcz1jb25zdW1lcnNlY3JldCZ4PTUy";
-$shared_secret = "165dbce917b4f4b352739a40f734af3ecdad639c";
-$appid = "9cZ7lJ6g";
+// OAuth keys need to authorize app to get user information
+// Get these keys when you create an app: https://developer.apps.yahoo.com/dashboard/createKey.html
+$api_key = "";
+$shared_secret = "";
+$appid = "";
 ?>
