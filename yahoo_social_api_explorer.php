@@ -125,16 +125,12 @@
         $endpoint = str_replace('{guid}', $session->guid, $uri);
         $original_endpoint = str_replace('{guid}', $session->guid, $original_uri);
 ?>
-  <script>
-    // document.getElementById('api_info').innerHTML += "
-    //document.getElementById('api_info').innerHTML +="<br/><b>URI:</b> " + <?php echo '"' . $original_endpoint . '";'; ?>
-    // document.getElementById('uri_input').innerHTML += <?php echo '"' . $original_endpoint . '";'; ?>
   </script>
         <!-- Text box for manually entering a YSP API URI. -->
         <div id='enter_api' style='margin-top: 235px; clear: left;'>
         <b id='guid'><a href="http://developer.yahoo.com/social/rest_api_guide/web-services-guids.html">GUID:</a></b> <?php echo " $session->guid"; ?>
         <form name='enter_uri' href='api_tester.php' method='GET'>
-        <b>URI:&nbsp;&nbsp;</b>
+        <b id='uri'><a href='http://developer.yahoo.com/social/rest_api_guide/uri-general.html#singleton-collection-resources'>URI:</a>&nbsp;&nbsp;</b>
         <input name='enter_uri' id='uri_input' type='text' size='100' value='<?php echo $original_endpoint ? $original_endpoint : ""; ?>'/>
         <p>
         <input type='submit' value='Make Request' name='request' />

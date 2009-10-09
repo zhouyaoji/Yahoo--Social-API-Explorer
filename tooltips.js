@@ -18,3 +18,7 @@ YAHOO.containers.updates = new YAHOO.widget.Tooltip("tt5", { context:"updates_ti
 
 // Tooltip for GUID
 YAHOO.containers.guid = new YAHOO.widget.Tooltip("tt6", { context:"guid", text:"A GUID identifies a person. In a URI, the GUID identifies the <br/>person who is associated with the data of the resource. <br/>Click to see the documentation." });
+
+// Tooltip for URI 
+YAHOO.containers.uri = new YAHOO.widget.Tooltip("tt7", { context:"uri", text:"You can also manually enter a URI as well. The single resource <br/>URIs require IDs such as the CID and FID. <br/>Click to see documentation about single and collection resources." });
+
