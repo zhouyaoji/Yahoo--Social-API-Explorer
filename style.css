@@ -1,16 +1,57 @@
 <style type='text/css'>
-hr { width: 780px; margin-left: 0; }
+body { font-size: 16px; margin-left: 15%; }
+hr { width: 75%; margin-left: 0; }
+h2 { font-size: 24px; }
 h2,h3 { color: purple; }
-h4 { color: #000033; font-size: 14px;}
+h4 { color: #000033; font-size: 16px;}
 h4 a { text-decoration: none; }
-b a { text-decoration: none; }
+h4 a, b a { text-decoration: none; font-size: 16px; color: #330099; }
 li { margin-left: -10px; }
-input { background-color: #CCCCCC; }
+input { background-color: #CCCCCC; margin-bottom: 10px; }
 #profiles,#contacts,#connections,#status,#updates { float: left; padding-right: 3px; padding-left: 3px;
-border: 1px solid black; height: 200px; width: 140px; }
-textarea { border: 1px groove black; background-color: #CCCCCC; }
-#response_header {float: right; margin-right: 325px;}
-#request_header { float: left; clear: left; } 
+border: 1px solid black; height: 25%; width: 13%; }
+#profiles { width: 15%; }
+#contacts { width: 15%; }
+#status { width: 10%; }
+#updates { width: 17%; }
+textarea { border: 1px groove black; background-color: #CCCCCC; font-size: 14px; }
+#response_header {float: right; margin-right: 25%; width: 35%; }
+#request_header { float: left; clear: left; margin-left: 0px; width: 40%; } 
 #xml_response, #json_response { display: block; clear: left; padding-top: 5px; clear: right;}
+
+#explorer_heading { margin-left: 25%; }
+#enter_api { margin-top: 18%; clear: left; }
+#intro, #code {
+  display: inline;
+  float: left;
+}
+#intro {
+  color: blue;
+  font-size: 115%%;
+  padding-left: 32px;
+  padding-right: 23px;
+  padding-bottom: 10px;
+  width: 650px;
+  background-color: #CCCCCC;
+  border: 2px dashed blue; 
+}
+#intro h1 {
+  background-position: bottom;
+  background-repeat: repeat-x;
+  color: white;
+  font-size: 240%;
+  margin: 0;
+  margin-bottom: .5em;
+  padding: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+#intro p {
+  line-height: 150%;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+#results { margin-top: 5px; padding: 2px; }
 </style>
+
 
