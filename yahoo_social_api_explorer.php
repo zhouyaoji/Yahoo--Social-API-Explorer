@@ -21,8 +21,12 @@
    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/base/base-min.css"> 
    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/fonts/fonts-min.css" />
    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/container/assets/skins/sam/container.css" />
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/container/container-min.js"></script>
+	 <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/tabview/assets/skins/sam/tabview.css"> 
+   <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+   <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/container/container-min.js"></script>
+   <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/element/element-min.js"></script> 
+	 <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/connection/connection-min.js"></script> 
+   <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/tabview/tabview-min.js"></script>
     <?php include("style.css"); ?> 
     </head>
     <body class="yui-skin-sam">
@@ -149,41 +153,56 @@ $query_params['format']='xml';
 $response_xml = $session->client->get($endpoint, $query_params);
 unset($_GET);
 ?>
-<div id='results'>
-<hr />
-<div id='request_header'>
-<h3>Request Header</h3>
-<textarea id='headers' rows='15' cols='60' wrap='virtual'>
-<?php 
+<div id='results' class='yui-navset'>
+<ul class='yui-nav'>
+<li class='selected'><a href="#xml"><em>XML</em></a></li>
+<li><a href='#json'><em>JSON</em></a></li>
+<li><a href='#request'><em>Request Header</em></a></li>
+<li><a href='#response'><em>Response Header</em></a></li>
+</ul>
+<div class='yui-content'>
+<div id='xml'>
+<pre>
+<?php
+     echo htmlspecialchars(xmlpp($response_xml['responseBody']));
+?>
+</pre>
+</div>
+<div id='json'>
+<pre>
+<?php echo htmlspecialchars(json_format($response['responseBody'])); ?>
+</pre>
+</div>
+<div id='request'>
+<pre>
+<?php
   if($response_xml){
       echo "HTTP Method: " . $response_xml['method'] . "\n\n";
-      echo "HTTP Status Code: " . $response_xml['code'] . "\n\n";    
+      echo "HTTP Status Code: " . $response_xml['code'] . "\n\n";
   }else{
      display_error("No request header is available.","text");
   }
-  if($response_xml['requestHeaders']){ 
-      //print_r($response_xml);
+  if($response_xml['requestHeaders']){
      if($response_xml['requestHeaders']){
        foreach($response_xml['requestHeaders'] as $field){
           if(strpos($field,",")!=false){
             $fields = explode(',',$field);
             foreach($fields as $line){
-              echo "$line\n\n";
+              echo wordwrap("$line\n\n",100,"\n",true);
            }
          }else {
-          echo $field . "\n\n";
+          echo wordwrap("$field\n\n",100,"\n",true);
        }
      }
     }
   }
 ?>
-</textarea>
+</pre>
 </div>
-<div id='response_header'>
-<h3>Response Header</h3>
-<textarea id='responseheaders' rows='15' cols='60' wrap='virtual'>
-<?php 
-  if($response_xml['responseHeaders']){ 
+<div id='response'>
+<pre>
+<?php
+  if($response_xml['responseHeaders']){
     foreach($response_xml['responseHeaders'] as $field => $value){
     echo "$field: $value\n\n";
    }
@@ -191,40 +210,14 @@ unset($_GET);
   else {
     display_error("No response header is available.","text");
   }
-?></textarea>
-</div>
-<div id='xml_response'>
-<h3>XML Response</h3>
-<textarea id='xml_resp' rows='15' cols='135' wrap='virtual'>
-<?php 
-     echo xmlpp($response_xml['responseBody']);
-?></textarea>
-</div>
-<div id='json_response'>
-<h3>JSON Response</h3>
-<textarea id='json_resp' rows='15' cols='135' wrap='virtual' autoflow='auto'> <?php 
-        echo json_format($response['responseBody']); 
 ?>
-</textarea>
+</pre>
 </div>
 </div>
 <script>
-				function format_toggle()
-				{
-          if(document.getElementById('format_button').value == "JSON")
-					{
-						document.getElementById('json_response').style.display = 'inline';
-						document.getElementById('xml_response').style.display = 'none';
- 			      document.getElementById('format_button').value = " XML";
- 			      document.getElementById('format_button').innerHTML = "See XML";
-					}else { 
- 			      document.getElementById('format_button').innerHTML = "See JSON";
- 			      document.getElementById('format_button').value = "JSON";
-						document.getElementById('xml_response').style.display = 'inline';
-						document.getElementById('json_response').style.display = 'none';
-				 }
-				}
-	  //document.getElementById('format_button').addEventListener('click',format_toggle(),false);
+(function() {
+    var tabView = new YAHOO.widget.TabView('results');
+})();
 </script>
 <?php
 }else{
