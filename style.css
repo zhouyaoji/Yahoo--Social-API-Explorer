@@ -5,32 +5,45 @@ h2 { font-size: 24px; }
 h2,h3 { color: purple; }
 h4 { color: #000033; font-size: 16px;}
 h4 a { text-decoration: none; }
-h4 a, b a { text-decoration: none; font-size: 16px; color: #330099; }
+h4 a, b a { text-decoration: none; font-size: 16px; color: #000033; }
 li { margin-left: -10px; }
 pre {
-white-space: pre-wrap; /* css-3 */
-white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
-white-space: -pre-wrap; /* Opera 4-6 */
-white-space: -o-pre-wrap; /* Opera 7 */
-word-wrap: break-word; /* Internet Explorer 5.5+ */
-font-size: 14px;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  font-size: 14px;
+  font-family: monospace;
 }
-#results { width: 900px; height: 200px;}
+#about { font-size: 14px; color: navy; padding: 5px;}
+#about li { padding-bottom: 5px; }
+#about h3 { font-size: 22px; }
+#about h4 { color: #000033; border-bottom: blue 1px solid; }
+#about .padding { padding-top: 8px; }
+#about code { font-size: 95%; }
+#about border{ bottom-padding: 2px; }
+
+#results { width: 73.5%; height: 200px;}
 input { background-color: #CCCCCC; margin-bottom: 10px; }
 #profiles,#contacts,#connections,#status,#updates { float: left; padding-right: 3px; padding-left: 3px;
-border: 1px solid black; height: 30%; width: 13%; }
-#profiles { width: 15%; }
-#contacts { width: 15%; }
+border: 1px solid #999; height: 31%; margin-top: -3%; width: 15%; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+}
 #status { width: 10%; }
-#updates { width: 17%; }
 textarea { border: 1px groove black; background-color: #CCCCCC; font-size: 14px; }
 #response_header {float: right; margin-right: 25%; width: 35%; }
 #request_header { float: left; clear: left; margin-left: 0px; width: 40%; } 
 #response_header, #request_header { display: none; }
 #xml_response, #json_response { display: block; clear: left; padding-top: 5px; clear: right; display: none; }
 
-#explorer_heading { margin-left: 25%; }
-#enter_api { margin-top: 20%; clear: left; }
+#explorer_heading { 
+    background: #156ea8 url('http://l.yimg.com/a/i/us/pps/yap-header-bkg-lg.jpg') repeat-x top left;
+margin-left:0%; width: 72.5%; height: 10%; padding: 5px; color: white;}
+#enter_api { margin-top: 15.5%; clear: left; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+border: 1px solid #999;
+width: 72.4%; padding: 5px;
+}
+#enter_api input { font-size: 13px; }
 #intro, #code {
   display: inline;
   float: left;

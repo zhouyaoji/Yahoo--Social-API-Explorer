@@ -159,6 +159,7 @@ unset($_GET);
 <li><a href='#json'><em>JSON</em></a></li>
 <li><a href='#request'><em>Request Header</em></a></li>
 <li><a href='#response'><em>Response Header</em></a></li>
+<li><a href='#about'><em>About <?php echo $socdir_titles[$api];?></em></a></li>
 </ul>
 <div class='yui-content'>
 <div id='xml'>
@@ -213,27 +214,39 @@ unset($_GET);
 ?>
 </pre>
 </div>
+<div id='about'>
+<?php include('about_apis/' . $api . ".html"); ?>
 </div>
+</div>
+<?php
+}else{
+?>
+<div id='results' class='yui-navset'>
+<ul class='yui-nav'>
+<li class='selected'><a href='#about'><em>About the Yahoo! Social API Explorer</em></a></li>
+</ul>
+<div class='yui-content'>
+<div id='about'>
+  <p>
+  This API explorer lets you make HTTP GET calls to the Yahoo! Social APIs by clicking on links. You can then view
+  the request and response headers and the returned responses in XML or JSON.
+ </p>
+  <p>
+   Use the Yahoo! Social API Explorer to learn the following:
+   <ul>
+     <li>Find out about the various APIs by mousing over the API names, GUID, and URI to 
+       view tooltips that give you a quick summary. Click on the hotspots to see the documentation.</li>
+     <li>URI Syntax: when you click on a link to an API, the URI syntax is shown in the URI text field.</li>
+     <li>To get detailed information about an API, click on the "About" tab. For example, after you have made
+       a call to the Profiles API, the tab "About Profiles" will appear. Click the tab to learn more about Profiles.</li>
+   </ul>
+ </div>
+</div>
+<?
+}
+?>
 <script>
 (function() {
     var tabView = new YAHOO.widget.TabView('results');
 })();
 </script>
-<?php
-}else{
-?>
-  <div id='intro'>
-  <h2>Introduction</h2>
-  <p>
-  This API explorer lets you make HTTP GET calls to the Yahoo! Social APIs by clicking on links.  
- </p>
-  <p>
-   You can become familiar with the following aspects of the Yahoo! Social Aspects:
-   <ul>
-   <li>Understanding of what type of information is available from each API. Just mouse over the API names, GUID, and URI to 
-       view tooltips that give you a concise summary.</li>
-   <li>URI Syntax: when you click on the
- </div>
-<?
-}
-?>
