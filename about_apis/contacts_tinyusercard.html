@@ -1,0 +1,37 @@
+<h3>Tinyusercard for Contacts</h3>
+
+<h4>Description</h4>
+<p class='padding'>
+You can use the following syntax to obtain a tinyusercard for each of the contacts. The contacts?view=tinyusercard segment indicates that the objects returned will be annotated with nickname and image data. For a description of the tinyusercard, see <a ref='http://developer.yahoo.com/social/rest_api_guide/tiny-profile-resource.html'>Tinyusercard Profile</a>. 
+</p>
+<p>For more information, see <a href='http://developer.yahoo.com/social/rest_api_guide/contacts_tinyusercards.html'>Tinyusercard for Contacts</a> in the Yahoo! Social API Reference.</p>
+<h4>URI</h4>
+<p class='padding'>
+<code>GET</code> returns the tinyusercards for contacts of the  profile owner with the given <code>{guid}</code>. 
+</p>
+<p><code>http://social.yahooapis.com/v1/user/{guid}/contacts?view=tinyusercard</code>
+</p>
+<h4>Filters</h4>
+<p class='padding'>
+See <a href='http://developer.yahoo.com/social/rest_api_guide/contacts_resource-filters.html'>Filtering</a> for Contacts.
+</p>
+<h4>HTTP Operations Supported</h4>
+<ul>
+<li><code>GET</code></li>
+</ul>
+<h4>Query Parameters</h4>
+<ul>
+  <li>callback</li>
+  <li>format</li>
+</ul>
+<h4>Matrix Parameters:</h4>
+<ul>
+  <li>start</li>
+  <li>count</li>
+  <li>sort-fields</li>
+  <li>sort</li>
+</ul>
+<h4>Scopes Required</h4>
+<ul>
+<li><code>GET:</code>Read Yahoo! Profiles</li> 
+</ul>

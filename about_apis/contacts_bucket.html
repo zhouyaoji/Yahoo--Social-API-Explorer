@@ -1,0 +1,54 @@
+<h3>Contacts: Bucketing</h3>
+
+<h4>Description</h4>
+<p class='padding'>
+Bucketing is a way to request a subset of contacts from a larger result set and divide that subset into groupings called buckets. Because the returned buckets are indexed, you can request a specific bucket by its index number. The requested bucket contains the specified number of Contact Objects, while the other buckets only contain the first and last Contact Objects of a given range.
+</p>
+<p>For more information, see <a href='http://developer.yahoo.com/social/rest_api_guide/extended-profile-resource.html'>Bucketing</a> in the Yahoo! Social API Reference.</p>
+<h4>URI Syntax</h4>
+<p class='padding'>
+Toget contacts in buckets, use the following syntax:
+</p>
+<p><code>/v1/user/{guid}/contacts;bucket={var1};maxbucketsize={var2};minbucketcount={var3}?view=bucketinfo</code>
+</p>
+<p>
+Bucketing should be specified with the following key-value pairs: 
+<p>
+<ul>
+<li><code>bucket</code> - the requested bucket that will have the given index. This bucket will have the current field to indicate that it was requested. The HTTP Status Code "404 Not Found" is returned if the bucket is not found.</li>
+<li><code>maxbucketsize</code> - the preferred maximum number of Contact Objects returned in each bucket.</li>
+<li><code>minbucketcount</code> - the preferred minimum number of buckets returned in each Contact Buckets Object.</li>
+<li><code>view=bucketinfo</code> - this is a required query parameter that is required for returning the contacts in buckets and metadata about the contents of each bucket.</li>
+</ul> 
+<h4>Filters</h4>
+<p class='padding'>
+See <a href='http://developer.yahoo.com/social/rest_api_guide/contacts_resource-filters.html'>Filtering</a> for Contacts.
+</p>
+<h4>HTTP Operations Supported</h4>
+<ul>
+<li><code>GET</code></li>
+</ul>
+<h4>Query Parameters</h4>
+<ul>
+  <li>format</li>
+  <li>view</li>
+</ul>
+<p>
+Allowed values for the view parameter:</p>
+<ul>
+<li><code>bucketinfo</code></li>
+</ul>
+<h4>Matrix Parameters:</h4>
+<ul>
+  <li>start</li>
+  <li>count</li>
+  <li>bucket</li>
+  <li>maxbucketsize</li>
+  <li>minbucketcount</li>
+  <li>sort-fields</li>
+  <li>sort</li>
+</ul>
+<h4>Scopes Required</h4>
+<ul>
+<li><code>GET:</code>Read Yahoo! Profiles</li> 
+</ul>

@@ -1,0 +1,36 @@
+<h3>Usercard</h3>
+
+<h4>Description</h4>
+<p class='padding'>
+The Usercard is the core data in the user's profile containing slightly more information than the tinyusercard. 
+</p>
+<p>For more information, see <a href='http://developer.yahoo.com/social/rest_api_guide/usercard-resource.html#usercard-desc'>Usercard Profile</a> in the Yahoo! Social API Reference.</p>
+<h4>URI</h4>
+<p class='padding'>
+<code>GET</code> returns the usercard profile of the profile owner with the given <code>{guid}</code>. 
+</p>
+<p><code>http://social.yahooapis.com/v1/user/{guid}/profile/usercard</code>
+</p>
+<h4>Filters</h4>
+<p class='padding'>
+Calling <code>GET</code> on the following URI returns the profiles of the users identified by GUIDs <code>{guid1}, {guid2}, and {guid3}</code>. 
+</p>
+<p><code>v1/users.guid(144,976,541)/profile/usercard</code></p>
+<h4>HTTP Operations Supported</h4>
+<ul>
+<li><code>GET</code></li>
+</ul>
+<h4>Query Parameters</h4>
+<ul>
+  <li>callback</li>
+  <li>format</li>
+</ul>
+<h4>Matrix Parameters:</h4>
+<ul>
+  <li>start</li>
+  <li>count</li>
+</ul>
+<h4>Scopes Required</h4>
+<ul>
+<li><code>GET:</code>Read Yahoo! Profiles</li> 
+</ul>

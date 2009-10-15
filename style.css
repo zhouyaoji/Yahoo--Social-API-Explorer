@@ -13,23 +13,43 @@ pre {
   white-space: -pre-wrap; /* Opera 4-6 */
   white-space: -o-pre-wrap; /* Opera 7 */
   word-wrap: break-word; /* Internet Explorer 5.5+ */
-  font-size: 14px;
+  font-size: 12px;
   font-family: monospace;
 }
-#about { font-size: 14px; color: navy; padding: 5px;}
+#about { font-size: 16px; color: navy; padding: 10px; background-color: white; border: 1px solid #999; }
 #about li { padding-bottom: 5px; }
-#about h3 { font-size: 22px; }
-#about h4 { color: #000033; border-bottom: blue 1px solid; }
+#about h3 { font-size: 22px; color: #000033;}
+#about h4 { font-size: 18px; color: #623D71; border-bottom: 1px solid #999; }
 #about .padding { padding-top: 8px; }
-#about code { font-size: 95%; }
+#about code { font-size: 90%; font-family: Courier, "Courier New", "Andale Mono",monospace;}
 #about border{ bottom-padding: 2px; }
-
+#about p li { font-family: Times; }
 #results { width: 73.5%; height: 200px;}
+#results pre { font-size: 90%; font-family: Courier, "Courier New", "Andale Mono", monspace; }
 input { background-color: #CCCCCC; margin-bottom: 10px; }
-#profiles,#contacts,#connections,#status,#updates { float: left; padding-right: 3px; padding-left: 3px;
-border: 1px solid #999; height: 31%; margin-top: -3%; width: 15%; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+.submit_button {     background: #325281 url('http://l.yimg.com/a/i/us/pps/yql_blue_button.jpg') repeat-x scroll 0 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 1px;
 }
-#status { width: 10%; }
+#profiles,#contacts,#connections,#status,#updates { float: left; padding-top: 1px; text-indent: 3px; 
+border: 1px solid #999; height: 33%; margin-top: -2.9%; width: 15.4%; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+}
+#profiles #contacts #connections #status #updates a { color:#1671AA;
+} 
+#profiles a { color:#1671AA; }
+#contacts a { color:#1671AA; }
+#connections a { color:#1671AA; }
+#status a { color:#1671AA; }
+#updates a { color:#1671AA; }
+
+#profiles h4 a { color: #000033; font-size: 16px;}
+#contacts h4 a { color: #000033; font-size: 16px;}
+#connections h4 a { color: #000033; font-size: 16px;}
+#status h4 a { color: #000033; font-size: 16px;}
+#updates h4 a { color: #000033; font-size: 16px;}
+
+#status { width: 10.9%; }
 textarea { border: 1px groove black; background-color: #CCCCCC; font-size: 14px; }
 #response_header {float: right; margin-right: 25%; width: 35%; }
 #request_header { float: left; clear: left; margin-left: 0px; width: 40%; } 
@@ -38,8 +58,9 @@ textarea { border: 1px groove black; background-color: #CCCCCC; font-size: 14px;
 
 #explorer_heading { 
     background: #156ea8 url('http://l.yimg.com/a/i/us/pps/yap-header-bkg-lg.jpg') repeat-x top left;
-margin-left:0%; width: 72.5%; height: 10%; padding: 5px; color: white;}
-#enter_api { margin-top: 15.5%; clear: left; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+    margin-top: -1%; margin-left:0%; width: 72.5%; height: 7%; padding: 5px; color: white; letter-spacing: .15em;
+}
+#enter_api { margin-top: 15.5%; height: 12%; clear: left; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
 border: 1px solid #999;
 width: 72.4%; padding: 5px;
 }

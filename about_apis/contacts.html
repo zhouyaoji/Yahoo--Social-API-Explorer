@@ -1,0 +1,50 @@
+<h3>Contacts</h3>
+
+<h4>Description</h4>
+<p class='padding'>
+With the Contacts API, you can obtain and add to the a collection of resources that represent a user's contacts. To retrieve contacts of contacts you will need a separate operation and each contact owner's permission. 
+</p>
+<p>For more information, see <a href='http://developer.yahoo.com/social/rest_api_guide/contacts-resource.html#contacts_resource-desc'>Contacts</a> in the Yahoo! Social API Reference.</p>
+<h4>URI</h4>
+<p class='padding'>
+Use the following URI to obtain Contact Objects or add a Contact Object for a user identified by the <code>{guid}</code> value. 
+</p>
+<p><code>http://social.yahooapis.com/v1/user/{guid}/contacts</code>
+</p>
+<h4>Filters</h4>
+<p class='padding'>
+See <a href='http://developer.yahoo.com/social/rest_api_guide/contacts_resource-filters.html'>Filtering Contacts</a>.
+</p>
+<h4>HTTP Operations Supported</h4>
+<p class='padding'>
+HTTP <code>POST</code> and <code>PUT</code> operations require permission from Yahoo!. You can make a request
+through the <a href='http://developer.yahoo.com/register/'>YDN Contact Form</a>.
+</p>
+<ul>
+<li><code>GET</code></li>
+<li><code>POST</code></li>
+<li><code>PUT</code></li>
+</ul>
+<h4>Query Parameters</h4>
+<ul>
+  <li>format</li>
+  <li>view</li>
+</ul>
+<h4>Matrix Parameters:</h4>
+<ul>
+  <li>start</li>
+  <li>count</li>
+  <li>bucket</li>
+  <li>maxbucketsize</li>
+  <li>minbucketcount</li>
+  <li>sort-fields</li>
+  <li>sort</li>
+</ul>
+<p>See also: <a href='http://developer.yahoo.com/social/rest_api_guide/contacts_resource-filters.html'>Filtering Contacts</a> and 
+<a href='http://developer.yahoo.com/social/rest_api_guide/bucketing.html'>Bucketing</a>.</p>
+<h4>Scopes Required</h4>
+<ul>
+<li><code>GET:</code>Read Yahoo! Profiles</li> 
+<li><code>POST:</code>Write Yahoo! Profiles</li> 
+<li><code>PUT:</code>Write Yahoo! Profiles</li> 
+</ul>

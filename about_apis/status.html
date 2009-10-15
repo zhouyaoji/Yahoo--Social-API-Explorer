@@ -1,0 +1,31 @@
+<h3>Status</h3>
+
+<h4>Description</h4>
+<p class='padding'>
+The Status API allows for users to set and share their status on Yahoo! and on applications. The user's status is a string with a maximum length of 140 characters; anything longer will be silently truncated. The Status API filters unsafe user input to avoid security issues such as invalid characters in a URL, SQL injections, or cross-site scripting. 
+</p>
+<p>For more information, see <a href='http://developer.yahoo.com/social/rest_api_guide/status-resource.html#status-description'>Status</a> in the Yahoo! Social API Reference.</p>
+<h4>URI</h4>
+<p class='padding'>
+<code>GET</code> returns the current status of the profile owner with the specified <code>{guid}</code>. 
+<code>PUT</code> updates the status of the profile owner.
+</p>
+<p><code>http://social.yahooapis.com/v1/user/{guid}/profile/status</code>
+</p>
+<h4>HTTP Operations Supported</h4>
+<ul>
+<li><code>GET</code></li>
+<li><code>PUT</code></li>
+</ul>
+<h4>Query Parameters</h4>
+<ul>
+  <li>callback</li>
+  <li>format</li>
+</ul>
+<h4>Matrix Parameters:</h4>
+<p class='padding'>Not available.</p>
+<h4>Scopes Required</h4>
+<ul>
+<li><code>GET:</code>Read Yahoo! Profiles</li> 
+<li><code>PUT:</code>Read Yahoo! Profiles</li> 
+</ul>

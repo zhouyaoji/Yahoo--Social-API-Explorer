@@ -39,7 +39,7 @@
 				<h4 id='profiles_title'><a href='http://developer.yahoo.com/social/rest_api_guide/social_dir_api.html#social_dir_intro-profiles' target='_blank'>
         Profiles API</a></h4>
 				<ul>
-				<li><a href='?api=profile'>Profiles</a></li>
+				<li><a href='?api=profile'>Profile</a></li>
 				<li><a href='?api=tinyusercard'>Tinyusercard</a></li>
 				<li><a href='?api=usercard'>Usercard</a></li>
         <li><a href='?api=introspective_guid'>Introspective GUID</a></li>
@@ -63,7 +63,7 @@
 				<h4 id='contacts_title'><a href="http://developer.yahoo.com/social/rest_api_guide/contacts-resource.html" target='blank'>Contacts API</a></h4>
 				<ul>
 				<li><a href='?api=contacts'>Contacts</a></li>
-				<li><a href='?api=contacts_tinyusercard'>Contacts Tinyusercard</a></li>
+				<li><a href='?api=contacts_tinyusercard'>Contacts: Tinyusercard</a></li>
         <li><a href='?api=contacts_bucket'>ContactBuckets</a></li>
 				<li><a href='?api=categories'>Categories</a></li>
 				</ul>
@@ -101,7 +101,7 @@
         <b id='uri'><a href='http://developer.yahoo.com/social/rest_api_guide/uri-general.html#singleton-collection-resources' target='_blank'>URI:</a>&nbsp;&nbsp;</b>
         <input name='uri_input' type='text' size='100'/> 
         <p>
-        <input type='submit' value='Make Request' name='request' />
+        <input class='submit_button' type='submit' value='Make Request' name='request' />
         </p>
         <p>
         </form>
@@ -120,6 +120,7 @@
     }else if(!empty($_GET['uri_input'])){
      // User has manually entered a URI
      $uri = strstr($_GET['uri_input'],"http") ? $_GET['uri_input'] : 'http://' . $_GET["uri_input"];
+     $api = basename($uri);
     }
   // URI has been set. Be sure to parse query parameters for URIs 
   // that were manually typed in and are using the 'view' parameter.
@@ -159,13 +160,18 @@ unset($_GET);
 <li><a href='#json'><em>JSON</em></a></li>
 <li><a href='#request'><em>Request Header</em></a></li>
 <li><a href='#response'><em>Response Header</em></a></li>
+<?php if(file_exists("about_apis/$api.html")){
+?>
 <li><a href='#about'><em>About <?php echo $socdir_titles[$api];?></em></a></li>
+<?
+}
+?>
 </ul>
 <div class='yui-content'>
 <div id='xml'>
 <pre>
 <?php
-     echo htmlspecialchars(xmlpp($response_xml['responseBody']));
+     echo wordwrap(htmlspecialchars(xmlpp($response_xml['responseBody'])),100,"\n",true);
 ?>
 </pre>
 </div>
@@ -189,10 +195,10 @@ unset($_GET);
           if(strpos($field,",")!=false){
             $fields = explode(',',$field);
             foreach($fields as $line){
-              echo wordwrap("$line\n\n",100,"\n",true);
+              echo wordwrap("$line\n",100,"\n",true) . "\n";
            }
          }else {
-          echo wordwrap("$field\n\n",100,"\n",true);
+          echo wordwrap("$field\n",100,"\n",true) . "\n";
        }
      }
     }
@@ -214,10 +220,15 @@ unset($_GET);
 ?>
 </pre>
 </div>
+<?php if(file_exists("about_apis/$api.html")){
+?>
 <div id='about'>
 <?php include('about_apis/' . $api . ".html"); ?>
 </div>
 </div>
+<?
+}
+?>
 <?php
 }else{
 ?>
