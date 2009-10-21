@@ -1,0 +1,45 @@
+<h3>Connection</h3>
+
+<h4>Description</h4>
+<p class='padding'>
+Use this URI to insert, modify, or delete a single update for the specified user.
+</p>
+<p>For more information, see <a href='http://developer.yahoo.com/social/rest_api_guide/Single-update-resource.html#update-desc'>Update</a> in the Yahoo! Social API Reference.</p>
+<h4>URI</h4>
+<p class='padding'>
+<code>http://social.yahooapis.com/v1/user/{guid1}/connection/{guid2}</code>
+</p>
+<p>This URI contains the following variables:</p>
+<ul>
+<li><code>{guid}</code> - Identifies the user whose action generates the update. The value of the collectionID element of the Update Object also contains the GUID.</li> 
+<li><code>{source}</code> - Identifies the application or Yahoo! site that creates the update. The value of the source element of the Update Object matches the <code>{source}</code> of the URI.</li> 
+<li><code>{suid}</code> - Identifies the update. See the following section for details.</li>
+</ul>
+<h4>Filters</h4>
+<p class='padding'>
+Not available.
+</p>
+<h4>HTTP Operations Supported</h4>
+<p>
+<ul>
+<li><code>GET</code></li>
+<li><code>PUT</code></li>
+<li><code>DELETE</code></li>
+</ul>
+</p>
+<h4>Query Parameters</h4>
+<ul>
+  <li>format</li>
+  <li>lang</li>
+  <li>transform</li>
+</ul>
+<h4>Matrix Parameters:</h4>
+<p class='padding'>
+Not available.
+</p>
+<h4>Scopes Required</h4>
+<ul>
+<li><code>GET:</code>Read Yahoo! Profiles</li> 
+<li><code>PUT:</code>Write Yahoo! Profiles</li> 
+<li><code>DELETE:</code>Write Yahoo! Profiles</li> 
+</ul>

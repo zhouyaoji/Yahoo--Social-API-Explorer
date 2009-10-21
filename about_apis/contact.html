@@ -1,0 +1,40 @@
+<h3>Contact</h3>
+
+<h4>Description</h4>
+<p class='padding'>
+A contact resource contains information about a user who is known, perhaps through an email exchange, to another user. Contacts are just like entries in an address book. The person who is listed as a contact does not have to give his or her approval. For example, Joe can add everyone from his school to his address book, and he does not need to ask each of them for permission to be added to his list of contacts.
+</p>
+<p>For more information, see <a href='http://developer.yahoo.com/social/rest_api_guide/contact-resource.html#contact-desc'>Contacts</a> in the Yahoo! Social API Reference.</p>
+<h4>URI</h4>
+<p class='padding'>
+The following URI points to a single resource for the user specified by <code>{guid}</code>. The <code>{cid}</code> is the ID. You can get IDs by running an 
+HTTP <code>GET</code> operation to retrieve a collection of contacts. Then, you can extract the value of the <code>{cid}</code> field from each Contact Object in the collection. With the {cid} field, you can then run an HTTP <code>GET</code> operation to retrieve a single contact or run an HTTP <code>DELETE</code> operation to delete a single contact. 
+</p>
+<p><code>http://social.yahooapis.com/v1/user/{guid}/contact/{cid}</code>
+</p>
+<h4>Filters</h4>
+<p class='padding'>
+Not available.
+</p>
+<h4>HTTP Operations Supported</h4>
+<p class='padding'>
+HTTP <code>DELETE</code> operations require permission from Yahoo!. You can make a request
+through the <a href='http://developer.yahoo.com/register/'>YDN Contact Form</a>.
+</p>
+<ul>
+<li><code>GET</code></li>
+<li><code>DELETE</code> (Requires write permission from Yahoo!)</li>
+</ul>
+<h4>Query Parameters</h4>
+<ul>
+  <li>format</li>
+</ul>
+<h4>Matrix Parameters:</h4>
+<p class='padding'>
+Not available.
+</p>
+<h4>Scopes Required</h4>
+<ul>
+<li><code>GET:</code>Read Yahoo! Profiles</li> 
+<li><code>DELETE:</code>Write Yahoo! Profiles</li> 
+</ul>

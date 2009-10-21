@@ -23,11 +23,9 @@ YAHOO.containers.guid = new YAHOO.widget.Tooltip("tt6", { context:"guid", text:"
 // Tooltip for URI 
 YAHOO.containers.uri = new YAHOO.widget.Tooltip("tt7", { context:"uri", text:"You can also manually enter a URI as well. The single resource <br/>URIs require IDs such as the CID and FID. <br/>Click to see documentation about single and collection resources." });
 
-// Tooltip for Singleton 
-YAHOO.containers.about = new YAHOO.widget.Tooltip("tt8", { context:"about_tab", text:"The About <?php print($socdir_titles[$api]); ?> tab provides an overview of the <br/> URI for the <?php print($api); ?> endpoint, such as the URI syntax, query/matrix parameters, HTTP methods.<br/>Click the tab to see documentation about <?php print($socdir_titles[$api]);?>." });
+// Tooltip for About tab
+YAHOO.containers.about = new YAHOO.widget.Tooltip("tt8", { context:"about_tab", text:"<b>About <?php print($socdir_titles[$api]); ?></b> describes the <br/> <?php print($api); ?> resource endpoint and reference info, such as the URI syntax, supported HTTP methods, the<br/>query/matrix parameters, filters, and scopes." });
 
-
-
-// Tooltip for Singleton 
-//YAHOO.containers.about = new YAHOO.widget.Tooltip("tt8", { context:"about_tab", text:"Certain endpoints allow you to  retrieve a single connection, contact, or update. For more information, see tab or go to documentation.<br/>"});
+// Tooltip for Singleton tab
+YAHOO.containers.singleton = new YAHOO.widget.Tooltip("tt9", { context:"singleton_tab", text:"The Individual <?php print($socdir_titles[$api]); ?> tab gives you a list of URIs<br/>for making calls for individual <?php print($api); ?><br/> Click the tab to see the links to individual resource endpoints for <?php print($socdir_titles[$api]);?>." });
 
