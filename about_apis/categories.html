@@ -9,16 +9,16 @@ A category name is the user, or system-assigned, label used to group contacts. Y
 <h4>URI</h4>
 <p class='padding'>
 You can use the following URI to get all of the categories that have been entered by the user identified by the <code>{guid}</code> value. 
-When you call the HTTP GET method on this URI, the categories' information is returned in a collection of Category Objects. 
-You can add a new category by calling HTTP POST on the URI and sending a Category Object.
+When you call the HTTP <code>GET</code> method on this URI, the categories' information is returned in a collection of Category Objects. 
+You can add a new category by calling HTTP <code>POST</code> on the URI and sending a Category Object.
 </p>
-<p><code>http://social.yahooapis.com/v1/user/{guid}/categories</code>
+<p><code class='uri'>http://social.yahooapis.com/v1/user/{guid}/categories</code>
 </p>
 <h4>Filters</h4>
 <p class='padding'>
 Calling <code>GET</code> on the following URI returns the profiles of the users identified by GUIDs <code>{guid1}, {guid2}, and {guid3}</code>. 
 </p>
-<p><code>/v1/users.guid(144,976,541)/profile</code></p>
+<p><code class='uri'>/v1/users.guid(144,976,541)/profile</code></p>
 <h4>HTTP Operations Supported</h4>
 <ul>
 <li><code>GET</code></li>

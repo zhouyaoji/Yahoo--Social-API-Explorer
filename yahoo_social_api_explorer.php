@@ -198,30 +198,31 @@ unset($_GET);
   // Extract single resource URIs from collections for the Contacts, Updates, and Connections APIs
   if($api=='contacts' || $api=='updates' || $api=='connections'){
 ?>
-  <li id='singleton_tab'><a href='#singleton'><em><?php echo $socdir_titles[$api]. " Singletons";?></em></a></li>
+  <li id='singleton_tab'><a href='#singleton'><em><?php echo "Individual " . $socdir_titles[$api];?></em></a></li>
 <?
 }
 ?>
 </ul>
 <div class='yui-content'>
 <div id='xml'>
-<pre>
 <?php
+  echo "<pre>";
 	echo wordwrap(htmlspecialchars(xmlpp($response_xml['responseBody'])),100,"\n",true);
 ?>
 				</pre>
 				</div>
 				<div id='json'>
-				<pre>
-				<?php echo wordwrap(htmlspecialchars(json_format($response['responseBody'])),100,"\n",true); ?>
+				<?php 
+            echo "<pre>";
+            echo wordwrap(htmlspecialchars(json_format($response['responseBody'])),100,"\n",true); ?>
 				</pre>
 				</div>
 				<div id='request'>
-				<pre>
 				<?php
-         // This section displays request header
+          echo "<pre>";
+          // This section displays request header
 					if($response_xml){
-							echo "HTTP Method: " . $response_xml['method'] . "\n\n";
+							print("HTTP Method: " . $response_xml['method'] . "\n\n");
 							echo "HTTP Status Code: " . $response_xml['code'] . "\n\n";
 					}else{
 						 display_error("No request header is available.","text");
@@ -244,8 +245,8 @@ unset($_GET);
 				</pre>
 				</div>
 				<div id='response'>
-				<pre>
 				<?php
+          echo "<pre>";
           // Display response header
 					if($response_xml['responseHeaders']){
 						foreach($response_xml['responseHeaders'] as $field => $value){
@@ -275,25 +276,30 @@ unset($_GET);
         <div id='singleton'>
         <?php
             $ul_list = "<ul>";
+            $li = "";
+            $count = 5;
             $reader = new XMLReader();
   					if($reader->XML($response_xml['responseBody'])){
-  					  while($reader->read()){
+  					  while($reader->read() && $count){
                 if($reader->nodeType == XMLREADER::ELEMENT && $reader->localName == 'contact' || $reader->localName == 'update' || $reader->localName=='connection') 
                 {
-                  if($contact_singleton = $reader->getAttribute('yahoo:uri')){
-                    if($api=='updates')
+                  if($singleton = $reader->getAttribute('yahoo:uri')){
+                    $count--;
+                    // URI in yahoo:uri for Updates is currently incorrect, but check in case this bug has been fixed.
+                    if($api=='updates' && !strpos($singleton,"updates"))
                     { 
-         										$stem = substr($contact_singleton,0,63);
-                            $contact_singleton = $stem . "updates/" . substr($contact_singleton,63,strlen($contact_singleton));
-                     }
-                     $li .= "<li><a href='?uri_input=$contact_singleton&api=$reader->localName'>" . $contact_singleton . "</a></li>";
+         										$stem = substr($singleton,0,63);
+                            $singleton = $stem . "updates/" . substr($singleton,63,strlen($singleton));
+                    }
+                    $li .= "<li><a href='?uri_input=$singleton&api=$reader->localName'>" . $singleton . "</a></li>";
                   }
                 }
               }
              if($li){
-               echo "Here are some singleton resource URIs for the " . $api . " API. Click on the links to make a request for the singleton resource:<br/>";
-               $ul_list .= $li; 
-               echo $li;
+               include("about_apis/singleton_collection.html");
+               $ul_list .= $li . "</ul>"; 
+               echo "Try clicking on the following singleton resource URIs for the ". ucwords($api) . " API:<br/>";
+               echo $ul_list . "</p>";
              }
           }
         ?>

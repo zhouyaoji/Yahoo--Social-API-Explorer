@@ -3,7 +3,7 @@
 <h4>Description</h4>
 <p class='padding'>
 The Tinyusercard is data from the Social Directory that describes a person with only a subset of the information available in the user's profile.  </p>
-<p>For more information, see <a href='http://developer.yahoo.com/social/rest_api_guide/extended-profile-resource.html'>Tinyusercard Profile</a> in the Yahoo! Social API Reference.</p>
+<p>For more information, see <a href='http://developer.yahoo.com/social/rest_api_guide/tiny-profile-resource.html'>Tinyusercard Profile</a> in the Yahoo! Social API Reference.</p>
 <h4>URI</h4>
 <p class='padding'>
 <code>GET</code> returns the tinyusercard profile of the profile owner with the specified <code>{guid}</code>. 
@@ -13,6 +13,9 @@ The Tinyusercard is data from the Social Directory that describes a person with 
 <h4>Filters</h4>
 <p class='padding'>
 Calling <code>GET</code> on the following URI returns the tinyusercard profiles of the users identified by GUIDs <code>{guid1}</code>, <code>{guid2}</code>, and <code>{guid3}</code>. 
+</p>
+<p>
+<code>http://social.yahooapis.com/v1/users.guid({guid1},{guid2},{guid3})/profile/tinyusercard</code>
 </p>
 <h4>HTTP Operations Supported</h4>
 <ul>
