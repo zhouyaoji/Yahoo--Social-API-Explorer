@@ -16,33 +16,33 @@
   include("api.inc");
   // Contains Consumer Key, Consumer Secret, and AppID
   include("keys.inc");
-
+  
    // Create a session w/ keys, callback URL and cookie session store 
    session_start();
 	 $session = YahooSession::requireSession($api_key, $shared_secret, $appid, "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'], null,
 			$_GET['oauth_verifier']);
 ?>
-   <html>
-   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+   <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
    <head>
      <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
      <title>Yahoo! Social API Explorer</title>
      <!-- Include stylesheets and JavaScript libraries from YUI -->
-     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css"> 
-     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/base/base-min.css"> 
+     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css"/> 
+     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/base/base-min.css"/> 
      <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/fonts/fonts-min.css" />
      <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/container/assets/skins/sam/container.css" />
-	   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/tabview/assets/skins/sam/tabview.css"> 
-     <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
-     <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/container/container-min.js"></script>
-     <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/element/element-min.js"></script> 
-	   <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/connection/connection-min.js"></script> 
-     <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/tabview/tabview-min.js"></script>
+	   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/tabview/assets/skins/sam/tabview.css"/> 
+     <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+     <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/container/container-min.js"></script>
+     <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/element/element-min.js"></script> 
+	   <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/connection/connection-min.js"></script> 
+     <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/tabview/tabview-min.js"></script>
      <?php include("style.css"); ?> 
    </head>
    <body class="yui-skin-sam">
   	<div id='main'>
-				<h2 id='explorer_heading'>Yahoo! Social API Explorer</h3>
+				<h2 id='explorer_heading'>Yahoo! Social API Explorer</h2>
 
         <!-- Links for Profiles API in first column 'profiles'. -->
 				<div id='profiles'>
@@ -64,8 +64,8 @@
 				<div id='connections'>
 				<h4><a id='connections_title' href='http://developer.yahoo.com/social/rest_api_guide/social_dir_api.html#social_dir_intro-connections'>Connections API</a></h4>
 				<ul>
-				<li><a href='?api=connections'>Connections</a>
-				<li><a href='?api=connections;start=0;count=5'>Connections: pagination</a>
+				<li><a href='?api=connections'>Connections</a></li>
+				<li><a href='?api=connections;start=0;count=5'>Connections: pagination</a></li>
 				</ul>
 				</div>
 
@@ -100,19 +100,17 @@
         <!-- Section for including information about the user and API being called. 
              * GUID
              * URI
-             * ??--other information?
        -->
 				</div>
         <!-- Text box for manually entering a YSP API URI. -->
         <div id='enter_api'>
         <b id='guid'><a href="http://developer.yahoo.com/social/rest_api_guide/web-services-guids.html" target="_blank">GUID:</a></b> <?php echo " $session->guid"; ?>
-        <form name='enter_uri' href='api_tester.php' method='GET'>
+        <form name='enter_uri' action='#' method='get'>
         <b id='uri'><a href='http://developer.yahoo.com/social/rest_api_guide/uri-general.html#singleton-collection-resources' target='_blank'>URI:</a>&nbsp;&nbsp;</b>
         <input name='uri_input' type='text' size='100'/> 
         <p>
         <input class='submit_button' type='submit' value='Make Request' name='request' />
         </p>
-        <p>
         </form>
         </div>
     <?php
@@ -127,9 +125,17 @@
        if(!empty($_GET['api'])){
          $api = $_GET['api'];
        }else{
-         $api = basename($uri);
+        // Scan URL used for request for API name to create doc tab
+            foreach($socdir_titles as $key=>$value){
+               $search_str = "/$key/";
+              if(strpos($uri,$search_str)){
+                $api = $key;
+                break;
+             }
+           }
+           $api = $api ? $api : basename($uri);
        }
-     }else if (!empty($_GET['api'])){ 
+     }else if(!empty($_GET['api'])){ 
        // User has clicked on link, start making request to API
        // Parse matrix parameters for pagination, etc.
        if($count=strpos($_GET['api'],';')){
@@ -148,7 +154,7 @@
 		     $uri = $BASE_URL . $socdir[$api]. $matrix_parms;
        }
     }
-
+    unset($_GET);
    // URI has been set. Be sure to parse query parameters for URIs 
    // that were manually typed in and are using the 'view' parameter.
    if(isset($uri)){
@@ -174,14 +180,13 @@
     $original_endpoint = str_replace('{guid}', $session->guid, $original_uri);
 ?>
 <!-- Place URL in textbox for user to see. -->
-<script type='text/javascript'>
+<script type='text/javascript' language='JavaScript'>
   document.enter_uri.uri_input.value = "<? echo $original_endpoint; ?>";
 </script>
 <?
 $response = $session->client->get($endpoint,$query_params);
 $query_params['format']='xml';
 $response_xml = $session->client->get($endpoint, $query_params);
-unset($_GET);
 ?>
 <!-- Create tabs for holding responses and docs -->
 <div id='results' class='yui-navset'>
@@ -196,34 +201,35 @@ unset($_GET);
 <?
 }
   // Extract single resource URIs from collections for the Contacts, Updates, and Connections APIs
-  if($api=='contacts' || $api=='updates' || $api=='connections'){
+  if(($api=='contacts' || $api=='updates' || $api=='connections') && $response_xml['code']==200){
 ?>
   <li id='singleton_tab'><a href='#singleton'><em><?php echo "Individual " . $socdir_titles[$api];?></em></a></li>
 <?
 }
 ?>
 </ul>
-<div class='yui-content'>
-<div id='xml'>
-<?php
-  echo "<pre>";
-	echo wordwrap(htmlspecialchars(xmlpp($response_xml['responseBody'])),100,"\n",true);
-?>
-				</pre>
-				</div>
-				<div id='json'>
+    <div class='yui-content'>
+      <div id='xml'>
+      <?php
+            echo "<pre>";
+	          echo wordwrap(htmlspecialchars(xmlpp($response_xml['responseBody'])),100,"\n",true);
+      ?>
+		 </pre>
+			</div>
+			<div id='json'>
 				<?php 
             echo "<pre>";
             echo wordwrap(htmlspecialchars(json_format($response['responseBody'])),100,"\n",true); ?>
 				</pre>
-				</div>
-				<div id='request'>
-				<?php
+			</div>
+			<div id='request'>
+			<?php
           echo "<pre>";
           // This section displays request header
 					if($response_xml){
-							print("HTTP Method: " . $response_xml['method'] . "\n\n");
-							echo "HTTP Status Code: " . $response_xml['code'] . "\n\n";
+            $status_code = $response_xml['code']; 
+					  print("HTTP Method: " . $response_xml['method'] . "\n\n");
+						print("HTTP Status Code: " . $status_code . "\n\n");
 					}else{
 						 display_error("No request header is available.","text");
 					}
@@ -242,18 +248,18 @@ unset($_GET);
 						}
 					}
 				?>
-				</pre>
-				</div>
-				<div id='response'>
+			</pre>
+			</div>
+			<div id='response'>
 				<?php
           echo "<pre>";
           // Display response header
 					if($response_xml['responseHeaders']){
 						foreach($response_xml['responseHeaders'] as $field => $value){
-						echo "$field: " . wordwrap("$value\n\n",100,"\n",true);
-					 }
+						  echo "$field: " . wordwrap("$value\n\n",100,"\n",true);
+					  }
 					}
-					else {
+				  else {
 						display_error("No response header is available.","text");
 					}
 				?>
@@ -271,10 +277,8 @@ unset($_GET);
         ?>
         <?php 
            // Certain APIs have singleton as well as collection endpoints. Create tab w/ singleton endpoints.
-           if($api=='contacts' || $api=='updates' || $api=='connections'){
-        ?>
-        <div id='singleton'>
-        <?php
+           if(($api=='contacts' || $api=='updates' || $api=='connections') && $status_code==200){
+            echo "<div id='singleton'>";     
             $ul_list = "<ul>";
             $li = "";
             $count = 5;
@@ -337,12 +341,13 @@ unset($_GET);
 }
 ?>
 <!-- Include library for making tooltips and tabs -->
-<script>
+</div>
+<script type='text/javascript' language='JavaScript'>
 (function() {
     var tabView = new YAHOO.widget.TabView('results');
 })();
 </script>
-<script type="text/javascript">
+<script type="text/javascript" language='JavaScript'>
 <?php require("tooltips.php"); ?>
 </script>
 </body>
