@@ -8,7 +8,7 @@
 
   // Get the Yahoo! Social SDK for PHP: http://github.com/yahoo/yos-social-php
   // Include PHP SDK for authorization and making requests to API endpoints
-  require('../yosdk/lib/Yahoo.inc');
+  require('../yos-social-php/lib/Yahoo.inc');
 
   // Library for formatting XML and JSON Responses
   include("prettify.inc");
