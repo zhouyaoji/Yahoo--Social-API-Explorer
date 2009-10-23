@@ -1,13 +1,19 @@
-1. Copy these files to a directory on your Web server.
+1. Install the Yahoo! Social SDK for PHP: http://github.com/yahoo/yos-social-php
 
-2. Go to https://developer.apps.yahoo.com/dashboard/createKey.html and
+2. Copy the files for the Y! Social API Explorer to a directory on your Web server.
+
+3. Go to https://developer.apps.yahoo.com/dashboard/createKey.html and
    create an OAuth application.
  
-3. Copy the API Key, Shared Secret and App ID into the keys.inc file.
+4. Copy the API Key, Shared Secret and App ID into the keys.inc file.
 
-4. Point your browser to yahoo_social_api_explorer.php. 
+5. Make sure the include statement to SDK in yahoo_social_api_explorer.php is correct.
 
-5. Click on any of the links to make HTTP GET calls to the Y! Social APIs.
+Ex: include("../yos-social-php/lib/Yahoo.inc"); // Make sure this path points to your PHP SDK 
+
+6. Point your browser to yahoo_social_api_explorer.php. 
+
+7. Click on any of the links to make HTTP GET calls to the Y! Social APIs.
 
 Note: Calls to the individual resources require IDs, which you can get from the
       the returned responses. For example, you can click on the Updates API link
