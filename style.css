@@ -1,5 +1,61 @@
 <style type='text/css'>
-body { font-size: 16px; margin-left: 15%; }
+body {
+  min-width: 600px;
+  min-height: 400px;
+}
+#topDropMaxCont {
+  background: url('http://l.yimg.com/a/i/ydn/header-shadow-bkg.gif') repeat-x;
+  height: 1.9em;
+  margin-bottom: 1.8em;
+  width: 84.5%;
+}
+#topDropContainer {
+  margin-left: 0px;
+  width: 74.8em;
+}
+#topDropIntCont {
+  text-align: left;
+}
+#breadcrumbs {
+  font-size: 80%;
+  height: 1.1em;
+  margin-left: 0;
+  padding-top: 10px;
+  position: absolute;
+  text-decoration: none;
+  top: 2.5em;
+  width: 74.8em;
+  clear: left;
+}
+#breadcrumbs a {
+  color: #2288bb;
+  text-decoration: none;
+}
+#breadcrumbs a:hover {
+  float: left;
+  height: 2em;
+  text-decoration: underline;
+}
+.bcSep {
+  float:left;
+  width:1.5em;
+  height:1.5em;
+  background:url('http://l.yimg.com/a/i/ydn/bcsep.gif') no-repeat top left;
+  position:relative;
+  bottom:3px;
+  margin-right:.5em;
+}
+.bcString {
+  float:left; 
+  margin-right: 0.5em; 
+}
+#breadcrumbs a.bcOn {
+    color: #888;
+}
+body { 
+  font-size: 16px; 
+  margin-left: 15%; 
+}
 hr { width: 75%; margin-left: 0; }
 h2 { font-size: 24px; }
 h2,h3 { color: purple; }
@@ -16,40 +72,109 @@ pre {
   font-size: 12px;
   font-family: monospace;
 }
-#about, #singleton { font-size: 18px; color: navy; padding: 10px; font-family: Times; background-color: white; border: 1px solid #999; margin-top: 0%; padding-bottom: 5px; }
-#about h3 { font-size: 24px; color: #000033; margin-top: -.05%; font-family: Arial; }
-#about h4 { font-size: 20px; color: #623D71; border-bottom: 1px solid #999; font-family: Arial; }
+#about, #singleton { 
+  font-size: 18px; 
+  color: navy; 
+  padding: 10px; 
+  font-family: Times; 
+  background-color: white; 
+  border: 1px solid #999; 
+  margin-top: 0%; 
+  padding-bottom: 5px; 
+}
+#about h3 { 
+  font-size: 24px; 
+  color: #000033; 
+  margin-top: -.05%; 
+  font-family: Arial; 
+}
+#about h4 { 
+  font-size: 20px; 
+  color: #623D71; 
+  border-bottom: 1px solid #999; 
+  font-family: Arial; 
+}
 #about .padding { padding-top: 8px; }
-#about code { font-size: 90%; font-family: Courier, "Courier New", "Andale Mono",monospace; }
+#about code { 
+  font-size: 90%; 
+  font-family: Courier, "Courier New", "Andale Mono",monospace; 
+}
 #about code.uri { color: #333333; }
 #about border{ bottom-padding: 2px; }
 #about p li { font-family: Times; }
 
-#singleton h3 { font-size: 24px; color: #000033; margin-top: -.05%; }
-#singleton li { font-size: 15px; margin-left: 10px; padding-top: 2px; padding-bottom: 2px; }
+#singleton h3 { 
+  font-size: 24px; 
+  color: #000033; 
+  margin-top: -.05%; 
+}
+#singleton li { 
+  font-size: 15px; 
+  margin-left: 10px; 
+  padding-top: 2px; 
+  padding-bottom: 2px; 
+}
 
-#results { width: 84.5%; height: 200px;}
-#results pre { font-size: 90%; font-family: Courier, "Courier New", "Andale Mono", monspace; }
-input { background-color: #eeeeee; margin-bottom: 10px; }
-.submit_button {     background: #325281 url('http://l.yimg.com/a/i/us/pps/yql_blue_button.jpg') repeat-x scroll 0 0;
-    color: #fff;
-    font-weight: bold;
-    padding: 1px;
+#results { 
+  width: 84.5%; 
+  height: 200px;
 }
-#profiles{ float: left; padding-top: 1px; text-indent: 4px; 
-border: 1px solid #999; height: 33%; margin-top: -2.9%; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+#results pre { 
+  font-size: 90%; 
+  font-family: Courier, "Courier New", "Andale Mono", monspace; 
 }
-#contacts{ float: left; padding-top: 1px; text-indent: 4px; 
-border: 1px solid #999; height: 33%; margin-top: -2.9%; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+input { 
+  background-color: #eeeeee; 
+  margin-bottom: 10px; 
 }
-#connections{ float: left; padding-top: 1px; text-indent: 4px; 
-border: 1px solid #999; height: 33%; margin-top: -2.9%; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+.submit_button {
+  background: #325281 url('http://l.yimg.com/a/i/us/pps/yql_blue_button.jpg') repeat-x scroll 0 0;
+  color: #fff;
+  font-weight: bold;
+  padding: 1px;
 }
-#status{ float: left; padding-top: 1px; text-indent: 4px; 
-border: 1px solid #999; height: 33%; margin-top: -2.9%; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+#api_container{
+  margin-top: -55px;
 }
-#updates{ float: left; padding-top: 1px; text-indent: 4px; 
-border: 1px solid #999; height: 33%; margin-top: -2.9%; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+#profiles{ 
+  float: left; 
+  padding-top: 5px; 
+  text-indent: 4px; 
+  border: 1px solid #999; 
+  height: 35%; 
+  background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+}
+#contacts{ 
+  float: left; 
+  padding-top: 5px; 
+  text-indent: 4px; 
+  border: 1px solid #999; 
+  height: 35%; 
+  background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+}
+#connections{ 
+  float: left; 
+  padding-top: 5px; 
+  text-indent: 4px; 
+  border: 1px solid #999; 
+  height: 35%; 
+  background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+}
+#status{ 
+  float: left; 
+  padding-top: 5px; 
+  text-indent: 4px; 
+  border: 1px solid #999; 
+  height: 35%; 
+  background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+}
+#updates{ 
+  float: left; 
+  padding-top: 5px; 
+  text-indent: 4px; 
+  border: 1px solid #999; 
+  height: 35%; 
+  background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
 }
 #profiles a { color:#1671AA; }
 #contacts a { color:#1671AA; }
@@ -68,28 +193,57 @@ border: 1px solid #999; height: 33%; margin-top: -2.9%; background: #EFFAFE url(
 #contacts { width: 18.5%; }
 #connections { width: 19%; }
 #updates { width: 20%; }
-
-textarea { border: 1px groove black; background-color: #CCCCCC; font-size: 14px; }
-
-#response_header {float: right; margin-right: 25%; width: 35%; }
-#request_header { float: left; clear: left; margin-left: 0px; width: 40%; } 
+textarea { 
+  border: 1px groove black; 
+  background-color: #CCCCCC; 
+  font-size: 14px; 
+}
+#response_header {
+  float: right; 
+  margin-right: 25%; 
+  width: 35%; 
+}
+#request_header { 
+  float: left; 
+  clear: left; 
+  margin-left: 0px; 
+  width: 40%; 
+} 
 #response_header, #request_header { display: none; }
-#xml_response, #json_response { display: block; clear: left; padding-top: 5px; clear: right; display: none; }
-
+#xml,#json,#request,#response { 
+  background-color: white; 
+  border: 1px solid #999; 
+  padding: 10px;
+}
+#xml_response, #json_response { 
+  display: block; 
+  clear: left; 
+  padding-top: 5px; 
+  clear: right; 
+  display: none; 
+}
 #explorer_heading { 
-    background: #156ea8 url('http://l.yimg.com/a/i/us/pps/yap-header-bkg-lg.jpg') repeat-x top left;
-    margin-top: -1%; margin-left:0%; width: 83.5%; height: 7%; padding: 5px; color: white; letter-spacing: .15em;
+   background: #156ea8 url('http://l.yimg.com/a/i/us/pps/yap-header-bkg-lg.jpg') repeat-x top left;
+   margin-top: -1%; 
+   width: 83.5%; 
+   padding: 5px; 
+   color: white; 
+  letter-spacing: .15em;
 }
-#enter_api { margin-top: 15.5%; height: 12%; clear: left; background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
-border: 1px solid #999;
-text-indent: 5px;
-width: 84.2%;
-padding-top: 5px;
-padding-bottom: 5px;
+#enter_api {
+  margin-top: 15.5%; 
+  height: 12%; 
+  clear: left; 
+  background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-x bottom;
+  border: 1px solid #999;
+  text-indent: 5px;
+  width: 84.2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
-#enter_api input { font-size: 13px; }
-
+#enter_api input { 
+  font-size: 13px;
+}
 #intro, #code {
   display: inline;
   float: left;

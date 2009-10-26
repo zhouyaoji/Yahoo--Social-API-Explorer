@@ -42,22 +42,37 @@
    </head>
    <body class="yui-skin-sam">
   	<div id='main'>
-				<h2 id='explorer_heading'>Yahoo! Social API Explorer</h2>
-
+			<h2 id='explorer_heading'>Yahoo! Social API Explorer</h2>
+      <div id="topDropMaxCont">
+        <div id="topDropContainer">
+          <div id="topDropIntCont">
+            <div id="breadcrumbs">
+              <span class="bcString"><a href="http://developer.yahoo.com">YDN</a></span>
+              <span class="bcSep"></span>
+              <span class="bcString"><a href="http://developer.yahoo.com/social/">Yahoo! Social APIs</a></span>
+						  <span class="bcSep"></span>
+              <span class="bcString"><a href="http://developer.yahoo.com/social/rest_api_guide">Documentation</a></span>
+              <span class="bcSep"></span>
+              <span class="bcString"><a class="bcOn">API Explorer</a></span>        
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div id='api_container'>
         <!-- Links for Profiles API in first column 'profiles'. -->
-				<div id='profiles'>
-				<h4 id='profiles_title'><a href='http://developer.yahoo.com/social/rest_api_guide/social_dir_api.html#social_dir_intro-profiles' target='_blank'>
-        Profiles API</a></h4>
-				<ul>
-				<li><a href='?api=profile'>Profile</a></li>
-				<li><a href='?api=tinyusercard'>Tinyusercard</a></li>
-				<li><a href='?api=usercard'>Usercard</a></li>
-        <li><a href='?api=introspective_guid'>Introspective GUID</a></li>
-				<li><a href='?api=idcard'>IDCard</a></li>
-				<li><a href='?api=schools'>Schools</a></li>
-				<li><a href='?api=works'>Works</a></li>
-				<li><a href='?api=images'>Images</a></li>
-				</ul>
+			  <div id='profiles'>
+				  <h4 id='profiles_title'><a href='http://developer.yahoo.com/social/rest_api_guide/social_dir_api.html#social_dir_intro-profiles' target='_blank'>
+          Profiles API</a></h4>
+				  <ul>
+            <li><a href='?api=introspective_guid'>Introspective GUID</a></li>
+				    <li><a href='?api=tinyusercard'>Tinyusercard</a></li>
+				    <li><a href='?api=idcard'>IDCard</a></li>
+				    <li><a href='?api=usercard'>Usercard</a></li>
+				    <li><a href='?api=profile'>Profile</a></li>
+				    <li><a href='?api=schools'>Schools</a></li>
+				    <li><a href='?api=works'>Works</a></li>
+				    <li><a href='?api=images'>Images</a></li>
+				  </ul>
 				</div>
  
         <!-- Links for Connections API in 2nd column 'connections'. -->
@@ -96,7 +111,7 @@
 				<li><a href='?api=updates_connections'>Updates for Connections</a></li>
 				</ul>
 				</div>
-
+    </div>
         <!-- Section for including information about the user and API being called. 
              * GUID
              * URI
