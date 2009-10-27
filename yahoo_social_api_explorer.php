@@ -21,37 +21,75 @@
    session_start();
 	 $session = YahooSession::requireSession($api_key, $shared_secret, $appid, "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'], null,
 			$_GET['oauth_verifier']);
-?>
+  
+  $yahoo_user = $session->getSessionedUser(); 
+  $profile = $yahoo_user->getProfile();
+  $nickname = $profile->nickname;
+
+  // User has requested to log out
+  if($_GET['logout']=='true'){
+    unset($_SESSION);
+    session_destroy(); 
+    $alert = "You have signed out from " . basename($_SERVER['SCRIPT_NAME']) . " and are being redirected to " . $_SERVER['SERVER_NAME']. ".";
+  ?>
+    <script type="text/javascript">
+    <!--
+    alert("<?php echo $alert; ?>");
+    window.location = "<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>";
+    //-->
+    </script>
+  <?php
+  }
+  ?>
 
    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
    <head>
      <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
      <title>Yahoo! Social API Explorer</title>
      <!-- Include stylesheets and JavaScript libraries from YUI -->
+     <!-- Skin CSS file -->
+     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/assets/skins/sam/resize.css">
+     <!-- Style sheets for setting bases for fonts and making look consistent across browsers. -->
      <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css"/> 
      <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/base/base-min.css"/> 
      <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/fonts/fonts-min.css" />
+     <!-- CSS for containers and tabs. -->
      <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/container/assets/skins/sam/container.css" />
 	   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/tabview/assets/skins/sam/tabview.css"/> 
-     <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
-     <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/container/container-min.js"></script>
-     <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/element/element-min.js"></script> 
-	   <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/connection/connection-min.js"></script> 
-     <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/tabview/tabview-min.js"></script>
-     <?php include("style.css"); ?> 
+
+     <!-- Utility Dependencies -->
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/dragdrop/dragdrop-min.js"></script> 
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/element/element-min.js"></script> 
+    <!-- Optional Animation -->
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/animation/animation-min.js"></script> 
+    <!-- Source file for the Resize Utility -->
+    <script src="http://yui.yahooapis.com/2.8.0r4/build/resize/resize-min.js"></script>
+
+    <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+    <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/container/container-min.js"></script>
+    <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/element/element-min.js"></script> 
+	  <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/connection/connection-min.js"></script> 
+    <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/tabview/tabview-min.js"></script>
+
+    <!-- DOM manipulation libraries -->
+    <script src="http://yui.yahooapis.com/2.8.0r4/build/yahoo/yahoo-min.js"></script>  
+    <script src="http://yui.yahooapis.com/2.8.0r4/build/dom/dom-min.js"></script> 
+    <?php include("style.css"); ?> 
    </head>
-   <body class="yui-skin-sam">
+   <body id='explorer_body' class="yui-skin-sam">
   	<div id='main'>
-			<h2 id='explorer_heading'>Yahoo! Social API Explorer</h2>
+			<h2 class='explorer_heading'>Yahoo! Social API Explorer</h2>
+      <p class='explorer_heading' align='right'><?php print(strtolower($nickname)); ?> | <a href='?logout=true'>Sign Out</a></p>
       <div id="topDropMaxCont">
         <div id="topDropContainer">
           <div id="topDropIntCont">
             <div id="breadcrumbs">
-              <span class="bcString"><a href="http://developer.yahoo.com">YDN</a></span>
+              <span class="bcString"><a href="http://developer.yahoo.com" target='_blank'>YDN</a></span>
               <span class="bcSep"></span>
-              <span class="bcString"><a href="http://developer.yahoo.com/social/">Yahoo! Social APIs</a></span>
+              <span class="bcString"><a href="http://developer.yahoo.com/social/" target='_blank'>Yahoo! Social APIs</a></span>
 						  <span class="bcSep"></span>
-              <span class="bcString"><a href="http://developer.yahoo.com/social/rest_api_guide">Documentation</a></span>
+              <span class="bcString"><a href="http://developer.yahoo.com/social/rest_api_guide" target='_blank'>Documentation</a></span>
               <span class="bcSep"></span>
               <span class="bcString"><a class="bcOn">API Explorer</a></span>        
             </div>
@@ -77,7 +115,7 @@
  
         <!-- Links for Connections API in 2nd column 'connections'. -->
 				<div id='connections'>
-				<h4><a id='connections_title' href='http://developer.yahoo.com/social/rest_api_guide/social_dir_api.html#social_dir_intro-connections'>Connections API</a></h4>
+				<h4><a id='connections_title' href='http://developer.yahoo.com/social/rest_api_guide/social_dir_api.html#social_dir_intro-connections' target='_blank'>Connections API</a></h4>
 				<ul>
 				<li><a href='?api=connections'>Connections</a></li>
 				<li><a href='?api=connections;start=0;count=5'>Connections: pagination</a></li>
@@ -116,18 +154,23 @@
              * GUID
              * URI
        -->
-				</div>
-        <!-- Text box for manually entering a YSP API URI. -->
-        <div id='enter_api'>
-        <b id='guid'><a href="http://developer.yahoo.com/social/rest_api_guide/web-services-guids.html" target="_blank">GUID:</a></b> <?php echo " $session->guid"; ?>
-        <form name='enter_uri' action='#' method='get'>
-        <b id='uri'><a href='http://developer.yahoo.com/social/rest_api_guide/uri-general.html#singleton-collection-resources' target='_blank'>URI:</a>&nbsp;&nbsp;</b>
-        <input name='uri_input' type='text' size='100'/> 
-        <p>
-        <input class='submit_button' type='submit' value='Make Request' name='request' />
-        </p>
-        </form>
-        </div>
+       <!-- Text box for manually entering a YSP API URI. -->
+       <div id='enter_api'>
+       <b id='guid'><a href="http://developer.yahoo.com/social/rest_api_guide/web-services-guids.html" target="_blank">GUID:</a></b> <?php echo " $session->guid"; ?>
+       <form name='enter_uri' action='#' method='get'>
+       <b id='uri'><a href='http://developer.yahoo.com/social/rest_api_guide/uri-general.html#singleton-collection-resources' target='_blank'>URI:</a>&nbsp;&nbsp;</b>
+       <input name='uri_input' type='text' size='100'/>
+       <p>
+       <input class='submit_button' type='submit' value='Make Request' name='request' />
+       <?php if(!empty($_GET['api']) || !empty($_GET['uri_input'])){ 
+       ?>
+        <p class='about_explorer' align='right'>
+        <a class='link' href='?' style='color:#1671AA;'>About the API Explorer</a></p>
+      <?php
+       }
+      ?>
+       </form>
+       </div>
     <?php
      // User has used form to make request
      if(!empty($_GET['uri_input'])){
@@ -242,9 +285,7 @@ $response_xml = $session->client->get($endpoint, $query_params);
           echo "<pre>";
           // This section displays request header
 					if($response_xml){
-            $status_code = $response_xml['code']; 
 					  print("HTTP Method: " . $response_xml['method'] . "\n\n");
-						print("HTTP Status Code: " . $status_code . "\n\n");
 					}else{
 						 display_error("No request header is available.","text");
 					}
@@ -267,7 +308,9 @@ $response_xml = $session->client->get($endpoint, $query_params);
 			</div>
 			<div id='response'>
 				<?php
+          $status_code = $response_xml['code']; 
           echo "<pre>";
+				  print("HTTP Status Code: " . $status_code . "\n\n");
           // Display response header
 					if($response_xml['responseHeaders']){
 						foreach($response_xml['responseHeaders'] as $field => $value){
@@ -357,6 +400,7 @@ $response_xml = $session->client->get($endpoint, $query_params);
 ?>
 <!-- Include library for making tooltips and tabs -->
 </div>
+</div>
 <script type='text/javascript' language='JavaScript'>
 (function() {
     var tabView = new YAHOO.widget.TabView('results');
@@ -364,6 +408,13 @@ $response_xml = $session->client->get($endpoint, $query_params);
 </script>
 <script type="text/javascript" language='JavaScript'>
 <?php require("tooltips.php"); ?>
+var resize_main = new YAHOO.util.Resize('main');
+YAHOO.util.Dom.get("explorer_body").style.width = YAHOO.util.Dom.getViewportWidth(); 
+if(YAHOO.util.Dom.get("xml")){
+  var body_height = YAHOO.util.Dom.get("xml").clientHeight + 500;
+  var body= YAHOO.util.Dom.get('explorer_body');
+  body.style.height=body_height;
+}
 </script>
 </body>
 </html>
