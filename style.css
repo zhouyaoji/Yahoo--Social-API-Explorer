@@ -6,7 +6,7 @@ body {
   background: #EFFAFE url('http://l.yimg.com/a/i/us/pps/yql_blue_grad.jpg') repeat-y bottom;
 }
 #main{
-  height: 768px;
+  height: 900px;
   width: 1200px;
   margin-left: 15%;
 }
@@ -82,7 +82,10 @@ pre {
   font-size: 12px;
   font-family: monospace;
 }
-#about, #singleton { 
+#about_api_explorer{ 
+ margin-left: 0px;
+}
+#about, #singleton, #about_api_explorer{ 
   font-size: 18px; 
   color: navy; 
   padding: 10px; 
@@ -91,8 +94,16 @@ pre {
   border: 1px solid #999; 
   margin-top: 0%; 
   padding-bottom: 5px; 
+  height: 400px;
+  overflow: auto;
 }
 #about h3 { 
+  font-size: 24px; 
+  color: #000030; 
+  margin-top: -.05%; 
+  font-family: Arial; 
+}
+#about_api_explorer h3 {
   font-size: 24px; 
   color: #000030; 
   margin-top: -.05%; 
@@ -104,8 +115,18 @@ pre {
   border-bottom: 1px solid #999; 
   font-family: Arial; 
 }
+#about_api_explorer h4{
+  font-size: 20px; 
+  color: #623D71; 
+  border-bottom: 1px solid #999; 
+  font-family: Arial; 
+}
 #about .padding { padding-top: 8px; }
 #about code { 
+  font-size: 90%; 
+  font-family: Courier, "Courier New", "Andale Mono",monospace; 
+}
+#about_api_explorer code{
   font-size: 90%; 
   font-family: Courier, "Courier New", "Andale Mono",monospace; 
 }
@@ -226,6 +247,8 @@ textarea {
   background-color: white; 
   border: 1px solid #999; 
   padding: 10px;
+  height: 400px;
+  overflow: auto;
 }
 #xml_response, #json_response { 
   display: block; 
@@ -251,7 +274,7 @@ p.explorer_heading {
 }
 #enter_api {
   margin-top: 15.5%; 
-  height: 12%; 
+  height: 10%; 
   clear: left; 
   background-color: white; 
   border: 1px solid #999;
@@ -271,9 +294,8 @@ p.explorer_heading {
 a.about_explorer{
   color:#1671AA; 
 }
-#about_api_explorer{
-  margin-top: 15.5%;
-  text-align: right;
+p.enter_api{
+ margin-top: -5px;
 }
 #enter_api input { 
   font-size: 13px;

@@ -58,26 +58,29 @@
 	   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/tabview/assets/skins/sam/tabview.css"/> 
 
      <!-- Utility Dependencies -->
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/dragdrop/dragdrop-min.js"></script> 
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/element/element-min.js"></script> 
-    <!-- Optional Animation -->
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/animation/animation-min.js"></script> 
-    <!-- Source file for the Resize Utility -->
-    <script src="http://yui.yahooapis.com/2.8.0r4/build/resize/resize-min.js"></script>
-
-    <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
-    <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/container/container-min.js"></script>
-    <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/element/element-min.js"></script> 
-	  <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/connection/connection-min.js"></script> 
-    <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/tabview/tabview-min.js"></script>
-
-    <!-- DOM manipulation libraries -->
-    <script src="http://yui.yahooapis.com/2.8.0r4/build/yahoo/yahoo-min.js"></script>  
-    <script src="http://yui.yahooapis.com/2.8.0r4/build/dom/dom-min.js"></script> 
-    <?php include("style.css"); ?> 
+      <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
+      <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/dragdrop/dragdrop-min.js"></script> 
+      <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/element/element-min.js"></script> 
+      <!-- Optional Animation -->
+      <script type="text/javascript" src="http://yui.yahooapis.com/2.8.0r4/build/animation/animation-min.js"></script> 
+      <!-- Source file for the Resize Utility -->
+      <script src="http://yui.yahooapis.com/2.8.0r4/build/resize/resize-min.js"></script>
+  
+      <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+      <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/container/container-min.js"></script>
+      <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/element/element-min.js"></script> 
+  	  <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/connection/connection-min.js"></script> 
+      <script type="text/javascript" language='JavaScript' src="http://yui.yahooapis.com/2.8.0r4/build/tabview/tabview-min.js"></script>
+  
+      <!-- DOM manipulation libraries -->
+      <script src="http://yui.yahooapis.com/2.8.0r4/build/yahoo/yahoo-min.js"></script>  
+      <script src="http://yui.yahooapis.com/2.8.0r4/build/dom/dom-min.js"></script> 
+      <?php include("style.css"); ?> 
+      <script>
+       window.onscroll= function() { resize(); }
+      </script>
    </head>
-   <body id='explorer_body' class="yui-skin-sam">
+   <body id='explorer_body' class="yui-skin-sam" onresize="resize()" onload="resize()">
   	<div id='main'>
 			<h2 class='explorer_heading'>Yahoo! Social API Explorer</h2>
       <p class='explorer_heading' align='right'><?php print(strtolower($nickname)); ?> | <a href='?logout=true'>Sign Out</a></p>
@@ -162,13 +165,6 @@
        <input name='uri_input' type='text' size='100'/>
        <p>
        <input class='submit_button' type='submit' value='Make Request' name='request' />
-       <?php if(!empty($_GET['api']) || !empty($_GET['uri_input'])){ 
-       ?>
-        <p class='about_explorer' align='right'>
-        <a class='link' href='?' style='color:#1671AA;'>About the API Explorer</a></p>
-      <?php
-       }
-      ?>
        </form>
        </div>
     <?php
@@ -265,6 +261,7 @@ $response_xml = $session->client->get($endpoint, $query_params);
 <?
 }
 ?>
+<li><a href="#about_api_explorer"><em>About the API Explorer</em></a></li>
 </ul>
     <div class='yui-content'>
       <div id='xml'>
@@ -368,7 +365,9 @@ $response_xml = $session->client->get($endpoint, $query_params);
         </div>
         <?
         }
-        ?>
+        ?><div id='about_api_explorer'>
+          <?php include("about_apis/api_explorer.html");?>
+         </div>
 				</div>
 				<?php
 				}else{
@@ -376,25 +375,13 @@ $response_xml = $session->client->get($endpoint, $query_params);
         <!-- No API has been selected. Display an introduction page to the API Explorer -->
 				<div id='results' class='yui-navset'>
 				<ul class='yui-nav'>
-				<li class='selected'><a href='#about'><em>About the Yahoo! Social API Explorer</em></a></li>
+				<li class='selected'><a href='#about_api_explorer'><em>About the Yahoo! Social API Explorer</em></a></li>
 				</ul>
 				<div class='yui-content'>
-<div id='about'>
-  <p>
-  This API explorer lets you make HTTP GET calls to the Yahoo! Social APIs by clicking on links. You can then view
-  the request and response headers and the returned responses in XML or JSON.
- </p>
-  <p>
-   Use the Yahoo! Social API Explorer to learn the following:
-   <ul>
-     <li>Find out about the various APIs by mousing over the API names, GUID, and URI to 
-       view tooltips that give you a quick summary. Click on the hotspots to see the documentation.</li>
-     <li>URI Syntax: when you click on a link to an API, the URI syntax is shown in the URI text field.</li>
-     <li>To get detailed information about an API, click on the "About" tab. For example, after you have made
-       a call to the Profiles API, the tab "About Profiles" will appear. Click the tab to learn more about Profiles.</li>
-   </ul>
- </div>
-</div>
+           <div id='about_api_explorer'>
+            <?php include("about_apis/api_explorer.html");?>
+          </div>
+        </div>
 <?
 }
 ?>
@@ -410,10 +397,27 @@ $response_xml = $session->client->get($endpoint, $query_params);
 <?php require("tooltips.php"); ?>
 var resize_main = new YAHOO.util.Resize('main');
 YAHOO.util.Dom.get("explorer_body").style.width = YAHOO.util.Dom.getViewportWidth(); 
+/*
 if(YAHOO.util.Dom.get("xml")){
   var body_height = YAHOO.util.Dom.get("xml").clientHeight + 500;
   var body= YAHOO.util.Dom.get('explorer_body');
   body.style.height=body_height;
+}else{
+   // No links have been clicked. Use the 'main' div tag as the height
+   var main_height = YAHOO.util.Dom.get("main").offsetHeight + 500;
+   var body = YAHOO.util.Dom.get("explorer_body");
+   body.style.height=main_height;
+}
+*/
+// Function for handling window resizing and scrolling
+function resize(){
+  var main_height = YAHOO.util.Dom.get("main").clientHeight;
+  var main_width= YAHOO.util.Dom.get("main").clientWidth;
+  var yOffset = document.body.scrollTop ? document.body.scrollTop : window.pageYOffset;
+  var xOffset = document.body.scrollLeft ? document.body.scrollLeft : window.pageXOffset;
+  var body= YAHOO.util.Dom.get('explorer_body');
+  body.style.height=document.body.clientHeight + yOffset;
+  body.style.width =YAHOO.util.Dom.getViewportWidth() + xOffset;
 }
 </script>
 </body>
