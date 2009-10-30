@@ -82,9 +82,6 @@ pre {
   font-size: 12px;
   font-family: monospace;
 }
-#about_api_explorer{ 
- margin-left: 0px;
-}
 #about, #singleton, #about_api_explorer{ 
   font-size: 18px; 
   color: navy; 
@@ -103,22 +100,35 @@ pre {
   margin-top: -.05%; 
   font-family: Arial; 
 }
-#about_api_explorer h3 {
-  font-size: 24px; 
-  color: #000030; 
-  margin-top: -.05%; 
-  font-family: Arial; 
-}
 #about h4 { 
   font-size: 20px; 
   color: #623D71; 
   border-bottom: 1px solid #999; 
   font-family: Arial; 
 }
-#about_api_explorer h4{
+#about_api_explorer b{
+  font-weight: 700;
+  font-size: 95%;
+} 
+#about_api_explorer h4 {
   font-size: 20px; 
-  color: #623D71; 
   border-bottom: 1px solid #999; 
+  font-family: Arial; 
+}
+#about_api_explorer li{
+ padding-bottom: 10px;
+ list-style-type: none;
+ margin-left: 3px;
+}
+#about_api_explorer ol { 
+  margin-left: 0%;
+  padding-left: 10px;
+}
+#about_api_explorer ol h5 {
+  font-size: 18px; 
+  color: #623D71; 
+  margin-top: -.05%; 
+  padding-bottom: 3px;
   font-family: Arial; 
 }
 #about .padding { padding-top: 8px; }

@@ -1,27 +1,49 @@
 <p>
 This API explorer lets you make HTTP <code>GET</code> calls to the Yahoo! Social APIs by clicking links.
-The request and response headers, the returned response bodies (XML/JSON), and the related documentation.
+After you have clicked a link, the request and response headers, the returned response body in both XML and JSON, and the related documentation
+will appear on tabs. The <b>XML</b> and <b>JSON</b> tabs contain the response body and the <b>About</b> tab contains relevant documentation.
+The <b>About the API Explorer</b> tab moves to the far right, allowing you to complete <em>Getting Started with the API Explorer</em>.
 </p>
-<h4>Getting Started</h4>
-   <ul>
-     <li><b>Learn about the APIs:</b> Mouse over the API names to see a summary of each API.
+<h4>Getting Started with the API Explorer</h4>
+   <ol>
+     <li><h5>1. Learn about the APIs</h5> 
+      Mouse over <b>Profiles API</b>, <b>Connections API</b>, <b>Contacts API</b>, <b>Status API</b>, and <b>Updates API</b> to see a summary of each API.
      </li>
-     <li><b>What is a GUID?</b> Mouse over GUID for the answer.
+
+     <li><h5>2. What is a GUID?</h5> 
+      Mouse over <b>GUID</b> for the short answer. See <a href='http://developer.yahoo.com/social/rest_api_guide/web-services-guids.html'>Globally Unique Identifier (GUID)</a> for 
+      a detailed explanation.
      </li>
-     <li><b>Get Your GUID:</b> Click the Introspective GUID link and find your GUID in the response body (XML/JSON).
+
+     <li><h5>3. Get Your GUID</h5> 
+      From the <b>Profiles API</b> column, click "Introspective GUID" and find your GUID in the response body (XML/JSON). 
+      Your GUID is used for all other calls to the APIs and notated as <code>{guid}</code> in the documentation.
      </li>
-     <li><b>Get Your Profile</b>: Click Tinyusercard (most basic info) and Profile (complete profile info).</li>
-     <li><b>Understand the URI Syntax:</b> Look at the URL in the URI text field. The syntax should match the URL below:
-        <ul><li><code>http://social.yahooapis.com/v1/user/{guid}/profile</code></li></ul>
+
+     <li><h5>4. Get Your Profile</h5> 
+       Click "Tinyusercard" for basic profile info and then "Profile" for the complete profile.
      </li>
-     <li><b>Pagination:</b> Click Connections: pagination. Pagination is done with the matrix parameters start and count.</li>
-     <li><b>Individual v. Collection Resources:</b> Click Individual Connection and read about the differences between individual and collection resources.</li>
-     <li><b>Singleton URI and Response:</b>Click one of the singleton resource URIs of the Connections API and look at the URI syntax and response.
-         <ul><li><code>http://social.yahooapis.com/v1/user/{guid}/connection/{cid}</code></li></ul>
+
+     <li><h5>5. Understand the URI Syntax</h5> 
+      Notice the URL in the URI text field. The following syntax is used for the collection resources: <code>http://social.yahooapis.com/v1/user/{guid}/{resourcepath}</code>
      </li>
-     <li><b>Error Headers and Responses:</b> Modify the {cid} in the URI for the individual connection and click Make Request.
-       <p>Take a look at the error response in XML/JSON. Also, note the HTTP Status Code in the response header.</p>
+
+     <li><h5>6. Pagination</h5> 
+     From the <b>Connections API</b> column, click "Connections: pagination". Pagination is done with the matrix parameters start and count that are appended to the base URI.
      </li>
-     <li><b>Yahoo! Social API Documentation:</b> The About tabs give a brief overview of the APIs. See the Yahoo! Social API Reference page by
-      clicking on the breadcrumb link Documentation.</li>
-</ul>
+
+     <li><h5>7. Individual v. Collection Resources</h5> 
+     Click the tab <b>Individual Connection</b> and read about the differences between individual and collection resources.
+     </li>
+     <li><h5>8. Singleton URI and Response</h5>
+     From <b>Individual Connection</b>, click one of the singleton resource URIs of the Connections API and look at the URI syntax and response.
+     </li>
+     <li><h5>9. Error Headers and Responses:</h5> 
+        In the URI text field, modify the string at the end of the URL (/connection/{cid}) and click Make Request.
+       <p>Take a look at the error response on the <b>XML</b> and <b>JSON</b> tabs. Also, note the HTTP Status Code on the <b>Response</b> tab.</p>
+     </li>
+     <li><h5>10. Yahoo! Social API Documentation</h5> 
+     The <b>About</b> tabs give a brief overview of the APIs. See the <a href='http://developer.yahoo.com/social/rest_api_guide/'>Yahoo! Social API Reference</a> 
+     for more information.
+     </li>
+</ol>
