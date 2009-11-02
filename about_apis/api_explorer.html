@@ -4,6 +4,7 @@ After you have clicked a link, the request and response headers, the returned re
 will appear on tabs. The <b>XML</b> and <b>JSON</b> tabs contain the response body and the <b>About</b> tab contains relevant documentation.
 The <b>About the API Explorer</b> tab moves to the far right, allowing you to complete <em>Getting Started with the API Explorer</em>.
 </p>
+<br/>
 <h4>Getting Started with the API Explorer</h4>
    <ol>
      <li><h5>1. Learn about the APIs</h5> 
@@ -25,25 +26,30 @@ The <b>About the API Explorer</b> tab moves to the far right, allowing you to co
      </li>
 
      <li><h5>5. Understand the URI Syntax</h5> 
-      Notice the URL in the URI text field. The following syntax is used for the collection resources: <code>http://social.yahooapis.com/v1/user/{guid}/{resourcepath}</code>
+      In the URI text field, you will see the URL syntax for making calls to collection resources. The <code>{resourcepath}</code> in the URL below includes the API name (i.e., profile) 
+      and post-processing parameters used for filtering and paging. 
+      <p style='padding-top: 10px; margin-bottom: 0px;'><code>http://social.yahooapis.com/v1/user/{guid}/{resourcepath}</code></p>
      </li>
 
-     <li><h5>6. Pagination</h5> 
-     From the <b>Connections API</b> column, click "Connections: pagination". Pagination is done with the matrix parameters start and count that are appended to the base URI.
+     <li><h5>6. Page Collections</h5> 
+     From the <b>Connections API</b> column, click "Connections: pagination". Pagination is done with the matrix parameters <code>start</code> and <code>count</code> that are appended to the base URI.
      </li>
 
-     <li><h5>7. Individual v. Collection Resources</h5> 
+     <li><h5>7. Compare Individual v. Collection Resources</h5> 
      Click the tab <b>Individual Connection</b> and read about the differences between individual and collection resources.
      </li>
-     <li><h5>8. Singleton URI and Response</h5>
-     From <b>Individual Connection</b>, click one of the singleton resource URIs of the Connections API and look at the URI syntax and response.
+     <li><h5>8. Call a Singleton URI and Response</h5>
+     From <b>Individual Connection</b>, click one of the singleton resource URIs of the Connections API to compare the differences between the URI syntax and response of singleton and collection resources.
+     The singleton resource has an identifier, which for a connection is a contact ID that is notated as {cid} in the URL below:<br/>
+     <p><code>http://social.yahooapis.com/v1/user/{guid}/connection/{cid}</code></p>
      </li>
-     <li><h5>9. Error Headers and Responses:</h5> 
-        In the URI text field, modify the string at the end of the URL (/connection/{cid}) and click Make Request.
-       <p>Take a look at the error response on the <b>XML</b> and <b>JSON</b> tabs. Also, note the HTTP Status Code on the <b>Response</b> tab.</p>
+     <li><h5>9. Identify Request Errors</h5> 
+        In the URI text field, modify the string at the end of the URL (/connection/{cid}) and click <b>Make Request</b>.
+       <p>Take a look at the error response on the <b>XML</b> and <b>JSON</b> tabs. Also, note the HTTP Status Code on the <b>Response Header</b> tab.</p>
      </li>
-     <li><h5>10. Yahoo! Social API Documentation</h5> 
+     <li><h5>10. Read the Yahoo! Social API Documentation</h5> 
      The <b>About</b> tabs give a brief overview of the APIs. See the <a href='http://developer.yahoo.com/social/rest_api_guide/'>Yahoo! Social API Reference</a> 
      for more information.
      </li>
 </ol>
+<p/>

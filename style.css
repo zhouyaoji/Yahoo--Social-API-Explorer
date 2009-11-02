@@ -84,8 +84,8 @@ pre {
 }
 #about, #singleton, #about_api_explorer{ 
   font-size: 18px; 
-  color: navy; 
-  padding: 10px; 
+  color: #333366; 
+  padding: 10px;
   font-family: Times; 
   background-color: white; 
   border: 1px solid #999; 
@@ -93,6 +93,10 @@ pre {
   padding-bottom: 5px; 
   height: 400px;
   overflow: auto;
+}
+#about_api_explorer p{
+  margin-bottom: 0px;
+  padding-top: 10px;
 }
 #about h3 { 
   font-size: 24px; 
@@ -116,7 +120,7 @@ pre {
   font-family: Arial; 
 }
 #about_api_explorer li{
- padding-bottom: 10px;
+ padding-bottom: 15px;
  list-style-type: none;
  margin-left: 3px;
 }
@@ -128,7 +132,7 @@ pre {
   font-size: 18px; 
   color: #623D71; 
   margin-top: -.05%; 
-  padding-bottom: 3px;
+  padding-bottom: 4px;
   font-family: Arial; 
 }
 #about .padding { padding-top: 8px; }
